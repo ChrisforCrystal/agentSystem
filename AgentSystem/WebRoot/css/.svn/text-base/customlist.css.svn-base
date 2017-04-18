@@ -1,0 +1,16 @@
+.container{
+	margin:0 auto;
+	position: relative;
+	height:auto;
+}
+.container a{color:#000;}
+.container a:hover{color:red;}
+.addCustomDiv{padding:10px;
+	text-align:left;}
+.addCustomDiv input{font-weight:bold;font-size:14px;}
+.funcli{text-align:center;width:120px;}
+.funcli ul{margin:0px;padding:0px;width:120px;}
+.funcli li{
+	float: left;width:40px;text-align: center;
+}
+.funcli li a{cursor: pointer;}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+    <!DOCTYPE struts PUBLIC   
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+        "http://struts.apache.org/dtds/struts-2.0.dtd">  
+       
+    <struts>  
+    	<!-- 设置是否支持动态方法调用，true为支持，false不支持 -->
+        <constant name="struts.enable.DynamicMethodInvocation" value="true" />  
+        <!-- 设置struts是否为开发模式，默认为false,测试阶段一般设为true. -->
+        <constant name="struts.devMode" value="true" />
+        <!-- 设置默认的locale和字符编码 -->  
+        <constant name="struts.i18n.encoding" value="UTF-8" />  
+        <constant name="struts.locale" value="zh_CN"></constant>
+        <!-- 指定struts的工厂类 -->
+        <constant name="struts.objectFactory" value="spring" />  
+        <!-- ### 指定spring框架的装配模式,装配方式有: name, type, auto, and constructor (name 是默认装配模式)-->
+        <constant name="struts.objectFactory.spring.autoWire" value="type" />  
+        <!-- 标准的UI主题,默认的UI主题为xhtml,可以为simple,xhtml或ajax.struts.ui.theme=xhtml-->
+        <constant name="struts.ui.theme" value="simple"></constant> 
+        <!-- 设置当struts.xml文件改动时，是否重新加载 --> 
+        <constant name="struts.configuration.xml.reload" value="true"></constant>
+        <!--被 FilterDispatcher使用,指定浏览器是否缓存静态内容，测试阶段设置为false，发布阶段设置为true.-->
+        <constant name="struts.serve.static.browserCache" value="false"></constant>
+        <constant name="struts.ognl.allowStaticMethodAccess" value="true"></constant>
+       <!-- 被 FilterDispatcher使用
+			如果为 true 则通过jar文件提供静态内容服务. 
+			如果为 false 则静态内容必须位于 <context_path>/struts
+			struts.serve.static=true --> 
+        <!--<constant name="struts.serve.static" value="true"></constant>-->
+        <!-- 指定action的后缀，默认为action -->
+        <!-- <constant name="struts.action.extension" value="htm"></constant> -->
+        <!-- 设置是否可以在action中使用斜线，默认为false不可以，想使用需设置为true.
+				struts.enable.SlashesInActionNames = false
+         -->
+        <constant name="struts.enable.SlashesInActionNames" value="false"></constant>
+        <!-- 设置是否每次请求，都重新加载资源文件，默认值为false. struts.i18n.reload=false -->
+        <constant name="struts.i18n.reload" value="false"></constant>
+        <!-- 设置生成url时，是否包含参数.值可以为: none, get or all . struts.url.includeParams = get -->
+        <constant name="struts.url.includeParams" value="get"></constant>
+        
+		
+		<include file="struts/struts-global.xml" />
+		<include file="struts/struts-index.xml" />
+		<include file="struts/struts-login.xml" />
+		<include file="struts/struts-role.xml" />
+		<include file="struts/struts-user.xml" />
+		<include file="struts/struts-function.xml" />
+		<include file="struts/struts-custom.xml" />
+		<include file="struts/struts-account.xml" />
+		<include file="struts/struts-systemconfig.xml" />
+		<include file="struts/struts-keyword.xml" />
+		<include file="struts/struts-log.xml" />
+		<include file="struts/struts-report.xml" />
+</struts>  

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"    
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.agent.dao.user.UserMapper">
+	
+	<select id="getAddUserId" resultType="int">
+		select LAST_INSERT_ID()
+	</select>
+	
+	<resultMap type="user" id="searchUserResult">
+		<result property="id" column="id"/>
+		<result property="userCode" column="userCode"/>
+		<result property="userName" column="userName"/>
+	</resultMap>
+	
+	<resultMap type="user" id="userList">
+		<result property="id" column="id"/>
+		<result property="userCode" column="userCode"/>
+		<result property="userName" column="userName"/>
+		<result property="userPassword" column="userPassword"/>
+		<result property="creationTime" column="creationTime"/>
+		<result property="lastLoginTime" column="lastLoginTime"/>
+		<result property="createdBy" column="createdBy"/>
+		<result property="isStart" column="isStart"/>
+		<result property="roleId" column="roleId"/>
+		<result property="roleName" column="roleName"/>
+	</resultMap>
+	
+	<select id="getUserList" resultMap="userList" parameterType="user">
+		select u.*,r.roleName as roleName from as_user u,as_role r where u.roleId = r.id
+		<if test="userName != null">
+		 and u.userName like CONCAT('%',#{userName},'%')
+		</if>
+		<if test="userCode != null">
+		 and u.userCode like CONCAT('%',#{userCode},'%')
+		</if>
+		<if test="roleId != null">
+		  and u.roleId = #{roleId}
+		</if>
+		<if test="isStart != null">
+		  and u.isStart = #{isStart}
+		</if>
+		order by creationTime desc limit #{starNum},#{pageSize}
+	</select>
+	
+	<select id="getUserListBySearch" resultMap="searchUserResult" parameterType="user">
+		select * from as_user 
+		<trim prefix="where" prefixOverrides="and | or">
+		<if test="userName != null">
+		 and userName like  #{userName}
+		</if>
+		<if test="userCode != null">
+		 and userCode like #{userCode}
+		</if>
+		<if test="roleId != null">
+		  and roleId = #{roleId}
+		</if>
+		<if test="isStart != null">
+		  and isStart = #{isStart}
+		</if>
+		</trim>
+	</select>
+	
+	<select id="getUser" resultType="user" parameterType="user">
+		select * from as_user 
+		<trim prefix="where" prefixOverrides="and | or">
+			<if test="id != null">
+				 and id = #{id}
+			</if>
+			<if test="userCode != null">
+				 and userCode = #{userCode}
+			</if>
+		 </trim>
+	</select>
+	
+	<select id="getLoginUser" resultType="user" parameterType="user">
+		select * from as_user where userCode = #{userCode} and userPassword = #{userPassword}
+	</select>
+	
+	<select id="isExitLoginUser" resultType="int" parameterType="user">
+		select count(*) from as_user where userCode = #{userCode}
+	</select>
+	
+	<insert id="addUser" parameterType="user" >
+		 insert into as_user (userCode,userName,userPassword,creationTime,
+		 								lastLoginTime,createdBy,lastUpdateTime,isStart,roleId) values (
+		 								#{userCode},#{userName},#{userPassword},#{creationTime},#{lastLoginTime},
+		 								#{createdBy},#{lastUpdateTime},#{isStart},#{roleId}
+		 								)
+	
+	</insert>
+	
+	<update id ="modifyUser" parameterType="user">
+		 update as_user
+			 <set>
+				 <if test="userCode != null"> userCode = #{userCode},</if>
+				 <if test="userName != null"> userName = #{userName},</if>
+				 <if test="userPassword != null"> userPassword = #{userPassword},</if>
+				 <if test="creationTime != null"> creationTime = #{creationTime},</if>
+				 <if test="lastLoginTime != null"> lastLoginTime = #{lastLoginTime},</if>
+				 <if test="createdBy != null"> createdBy = #{createdBy},</if>
+				 <if test="lastUpdateTime != null"> lastUpdateTime = #{lastUpdateTime},</if>
+				 <if test="isStart != null"> isStart = #{isStart},</if>
+			 	 <if test="roleId != null"> roleId = #{roleId}</if>
+		     </set>
+		  	where id = #{id}
+	</update>
+	
+	<delete id ="deleteUser" parameterType="user">
+		delete from as_user where id = #{id}
+	</delete>
+	
+	<select id="count" resultType="int" parameterType="user">
+		select count(1) from as_user
+		<trim prefix="where" prefixOverrides="and | or">
+		<if test="userName != null">
+		 and userName like  CONCAT('%',#{userName},'%')
+		</if>
+		<if test="userCode != null">
+		 and userCode like CONCAT('%',#{userCode},'%')
+		</if>
+		<if test="roleId != null">
+		  and roleId = #{roleId}
+		</if>
+		<if test="isStart != null">
+		  and isStart = #{isStart}
+		</if>
+		</trim>
+	</select>
+	
+		
+</mapper>  

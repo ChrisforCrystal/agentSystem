@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="AgentSystem"
+  id="myeclipse.1379834393818"
+  context-root="/AgentSystem"
+  j2ee-spec="6.0"
+  archive="AgentSystem.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

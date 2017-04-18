@@ -1,0 +1,43 @@
+2014-5-15 10:40:10[ERROR](SystemInit.java:52) ------------>11
+2014-5-15 10:40:10[ERROR](SystemInit.java:53) ------------>2
+2014-5-15 10:40:10[ERROR](SystemInit.java:54) ------------>3
+2014-5-15 10:40:10[ERROR](SystemInit.java:55) ------------>http://app.bdqn.cn
+2014-5-15 10:40:10[ERROR](SystemInit.java:56) ------------>3
+2014-5-15 10:40:10[ERROR](SystemInit.java:57) ------------>4
+2014-5-15 10:40:11[ERROR](SystemInit.java:98) Role list:7
+2014-5-15 10:40:11[ERROR](SystemInit.java:104) init datas end.
+2014-5-15 10:40:23[ERROR](LoginAction.java:95) User login : admin - 系统管理员
+2014-5-15 10:40:29[ERROR](AccountAction.java:68) --->11
+2014-5-15 10:40:44[ERROR](AccountAction.java:84) userid : 2
+2014-5-15 10:40:44[ERROR](AccountAction.java:85) money :1000000
+2014-5-15 10:53:03[ERROR](AccountAction.java:68) --->11
+2014-5-15 10:53:12[ERROR](AccountAction.java:84) userid : 3
+2014-5-15 10:53:12[ERROR](AccountAction.java:85) money :1
+2014-5-15 13:06:14[ERROR](SystemInit.java:52) ------------>11
+2014-5-15 13:06:14[ERROR](SystemInit.java:53) ------------>2
+2014-5-15 13:06:14[ERROR](SystemInit.java:54) ------------>3
+2014-5-15 13:06:14[ERROR](SystemInit.java:55) ------------>http://app.bdqn.cn
+2014-5-15 13:06:14[ERROR](SystemInit.java:56) ------------>3
+2014-5-15 13:06:14[ERROR](SystemInit.java:57) ------------>4
+2014-5-15 13:06:15[ERROR](SystemInit.java:98) Role list:7
+2014-5-15 13:06:15[ERROR](SystemInit.java:104) init datas end.
+2014-5-15 13:06:25[ERROR](LoginAction.java:95) User login : admin - 系统管理员
+2014-5-15 13:06:28[ERROR](KeywordAction.java:78) --->5
+2014-5-15 13:06:30[ERROR](KeywordAction.java:78) --->5
+2014-5-15 13:06:32[ERROR](KeywordAction.java:78) --->1
+2014-5-15 13:06:44[ERROR](KeywordAction.java:78) --->1
+2014-5-15 13:06:44[ERROR](KeywordAction.java:78) --->1
+2014-5-15 13:06:48[ERROR](KeywordAction.java:78) --->5
+2014-5-15 13:06:51[ERROR](KeywordAction.java:78) --->1
+2014-5-15 13:07:17[ERROR](KeywordAction.java:78) --->5
+2014-5-15 13:07:19[ERROR](KeywordAction.java:78) --->5
+2014-5-15 13:07:25[ERROR](KeywordAction.java:78) --->1
+2014-5-15 13:07:29[ERROR](LoginAction.java:95) User login : admin - 系统管理员
+2014-5-15 13:07:32[ERROR](KeywordAction.java:78) --->5
+2014-5-15 13:07:37[ERROR](KeywordAction.java:78) --->1
+2014-5-15 13:07:39[ERROR](KeywordAction.java:78) --->1
+2014-5-15 13:07:40[ERROR](KeywordAction.java:78) --->1
+2014-5-15 13:07:41[ERROR](KeywordAction.java:78) --->1
+2014-5-15 13:07:43[ERROR](KeywordAction.java:78) --->1
+2014-5-15 13:07:48[ERROR](KeywordAction.java:78) --->2
+2014-5-15 13:07:52[ERROR](KeywordAction.java:78) --->2

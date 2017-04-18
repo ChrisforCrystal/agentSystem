@@ -1,0 +1,20 @@
+.addAppTitle{margin:10px;padding:2px;text-align:center;border-bottom: 1px solid #ccc;}
+.formdiv {margin:10px;}
+.formdiv ul li{width:40%;float:left;padding:5px;}
+.submitdiv {text-align: center;padding:10px;border-top:1px solid #ccc;margin-top:5px;}
+.message .actionMessage li{
+	margin:5px;
+	padding:5px;
+	padding-left:20px;
+	border:1px solid green;
+	background: #e9fff1;
+	color:green;
+}
+.message .actionError li{
+	margin:5px;
+	padding:5px;
+	padding-left:20px;
+	border:1px solid red;
+	background: #ffebeb;
+	color:green;
+}

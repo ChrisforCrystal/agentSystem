@@ -1,0 +1,50 @@
+2014-5-8 09:50:51[ERROR](SystemInit.java:52) ------------>11
+2014-5-8 09:50:52[ERROR](SystemInit.java:53) ------------>2
+2014-5-8 09:50:52[ERROR](SystemInit.java:54) ------------>3
+2014-5-8 09:50:52[ERROR](SystemInit.java:55) ------------>http://app.bdqn.cn
+2014-5-8 09:50:52[ERROR](SystemInit.java:56) ------------>3
+2014-5-8 09:50:52[ERROR](SystemInit.java:57) ------------>4
+2014-5-8 09:50:52[ERROR](SystemInit.java:98) Role list:7
+2014-5-8 09:50:52[ERROR](SystemInit.java:104) init datas end.
+2014-5-8 09:51:00[ERROR](LoginAction.java:98) User login : admin - 系统管理员
+2014-5-8 09:51:04[ERROR](PortalAction.java:93) cname-hanlu-----> null
+2014-5-8 09:51:04[ERROR](PortalAction.java:94) kword-hanlu-----> null
+2014-5-8 09:51:04[ERROR](PortalAction.java:115) myPortalManage ********* 0
+2014-5-8 09:51:07[ERROR](KeywordAction.java:78) --->1
+2014-5-8 09:51:10[ERROR](KeywordAction.java:379) xxxxxxxxxxxxxxxxxxxxx0
+2014-5-8 09:51:10[ERROR](KeywordAction.java:380) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-8 09:51:10[ERROR](KeywordAction.java:381) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-8 09:51:10[ERROR](LogAction.java:28) ----------------------------logs------------------------
+2014-5-8 09:55:24[ERROR](CustomAction.java:181) cname-hanlu-----> null
+2014-5-8 09:55:27[ERROR](KeywordAction.java:78) --->1
+2014-5-8 09:55:29[ERROR](LogAction.java:28) ----------------------------logs------------------------
+2014-5-8 09:55:53[ERROR](KeywordAction.java:331) xxxxxxxxxxxxxxxxxxxxx11
+2014-5-8 09:55:53[ERROR](KeywordAction.java:332) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-8 09:55:53[ERROR](KeywordAction.java:333) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-8 09:56:09[ERROR](KeywordAction.java:379) xxxxxxxxxxxxxxxxxxxxx1
+2014-5-8 09:56:09[ERROR](KeywordAction.java:380) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-8 09:56:09[ERROR](KeywordAction.java:381) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-8 09:56:23[ERROR](KeywordAction.java:331) xxxxxxxxxxxxxxxxxxxxx11
+2014-5-8 09:56:23[ERROR](KeywordAction.java:332) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-8 09:56:23[ERROR](KeywordAction.java:333) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-8 10:19:20[ERROR](SystemInit.java:52) ------------>11
+2014-5-8 10:19:20[ERROR](SystemInit.java:53) ------------>2
+2014-5-8 10:19:20[ERROR](SystemInit.java:54) ------------>3
+2014-5-8 10:19:20[ERROR](SystemInit.java:55) ------------>http://app.bdqn.cn
+2014-5-8 10:19:20[ERROR](SystemInit.java:56) ------------>3
+2014-5-8 10:19:20[ERROR](SystemInit.java:57) ------------>4
+2014-5-8 10:19:20[ERROR](SystemInit.java:98) Role list:7
+2014-5-8 10:19:20[ERROR](SystemInit.java:104) init datas end.
+2014-5-8 10:19:24[ERROR](LoginAction.java:98) User login : admin - 系统管理员
+2014-5-8 10:19:27[ERROR](KeywordAction.java:78) --->1
+2014-5-8 10:19:34[ERROR](KeywordAction.java:279) -------->12-1
+2014-5-8 10:19:34[ERROR](KeywordAction.java:297) ++++++++++++>26000*1
+2014-5-8 10:19:44[ERROR](KeywordAction.java:279) -------->12-1
+2014-5-8 10:19:44[ERROR](KeywordAction.java:297) ++++++++++++>26000*1
+2014-5-8 10:19:44[ERROR](KeywordAction.java:192) ccount.getMoney().doubleValue():9.992432223E7
+2014-5-8 10:19:44[ERROR](KeywordAction.java:193) new BigDecimal(price).doubleValue():26000.0
+2014-5-8 10:19:44[ERROR](KeywordAction.java:194) >>>>>>>>>>>>>>>>>:true
+2014-5-8 10:19:44[ERROR](KeywordAction.java:195) +++++---------------+++26000 keyword : AAACustomId:27CustomName:测试企业
+2014-5-8 10:19:48[ERROR](KeywordAction.java:379) xxxxxxxxxxxxxxxxxxxxx2
+2014-5-8 10:19:48[ERROR](KeywordAction.java:380) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-8 10:19:48[ERROR](KeywordAction.java:381) xxxxxxxxxxxxxxxxxxxxxnull

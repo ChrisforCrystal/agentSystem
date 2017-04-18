@@ -1,0 +1,67 @@
+10
+
+dir
+2213
+svn://10.0.0.181/trunk/00-ProjectLibrary/00-Programs/AgentSystem/src/org/agent/service
+svn://10.0.0.181/trunk
+
+
+
+2014-05-06T06:58:44.540533Z
+2213
+hanlu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+730e923a-e7be-4718-8cae-0ba0e7510765
+
+accountdetail
+dir
+
+provinceandcity
+dir
+
+role
+dir
+
+logs
+dir
+
+function
+dir
+
+keywords
+dir
+
+premission
+dir
+
+custom
+dir
+
+systemconfig
+dir
+
+contact
+dir
+
+report
+dir
+
+account
+dir
+
+user
+dir
+

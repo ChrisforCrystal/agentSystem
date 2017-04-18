@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"    
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.agent.dao.account.AccountMapper">
+
+	
+	<select id="getAccountList" resultType="account" parameterType="account">
+		select * from as_account
+	</select>
+	
+	<select id="getAccount" resultType="account" parameterType="account">
+		select * from as_account where userId = #{userId} and money = moneybak
+	</select>
+	
+	<insert id="addAccount" parameterType="role" >
+		 insert into as_account (userId,money,moneyBak) values (#{userId},#{money},#{moneyBak})
+	</insert>
+	
+	<update id ="modifyAccount" parameterType="role">
+		update as_account
+			 <set>
+				 <if test="money != null">  money = #{money},</if>
+				 <if test="moneyBak != null"> moneyBak = #{moneyBak}</if>
+		     </set>
+		  	where userId = #{userId}
+	</update>
+	
+	<delete id ="deleteAccount" parameterType="role">
+		delete from as_account where userId = #{userId}
+	</delete>
+		
+</mapper>  

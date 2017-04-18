@@ -1,0 +1,22 @@
+#sidebar a:FOCUS{
+	 color:blue;
+}
+iframe{border:0px;}
+.jslist,.iframeli{height:500px;overflow-y: auto;}
+.container{
+	height:auto;
+}
+.container a{color:#000;}
+.container a:hover{color:#ff0000;}
+.container ul li{float: left;border:1px solid #C5C3C4;margin:5px; padding:4px;background: #efefef;}
+.jslist{width:15%;}
+.iframeli{width:80%;}
+.container ul li ul li{float: none;background: #fff;overflow: hidden;text-align: left;}
+.container ul li ul li:hover{ 
+	background:url(../imgs/left_bluebg_1px.gif) left bottom repeat-x;
+	cursor:pointer;
+	
+}
+.container ul li ul li:hover a{
+	color:#fff;
+}

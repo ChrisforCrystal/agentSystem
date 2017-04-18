@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"    
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.agent.dao.function.FunctionMapper">
+	<select id="getFunctionList" resultType="Function">
+		select * from as_function where parentId &lt;&gt; 0 and isStart=1
+	</select>
+	<select id="getFunctionById" resultType="Function" parameterType="Function">
+		select * from as_function where id = #{id}
+	</select>
+	<select id="getMenuFunction" resultType="Function" parameterType="Function">
+		select * from as_function where parentId = 0 and isStart=1
+	</select>
+</mapper>  

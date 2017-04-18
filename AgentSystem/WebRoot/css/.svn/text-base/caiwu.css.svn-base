@@ -1,0 +1,29 @@
+.searchuserdiv{
+	height:60px;
+	padding:10px;
+	margin:10px;
+	border:1px solid #efefef;
+}
+.searchuserdiv li{padding:5px;}
+.searchuserdiv li b{color:red;}
+.searchresult{
+	top:5px;
+	left:5px;
+}
+.searchresult ul li{
+	float:left;width:50px;
+	padding:5px;margin:5px;
+	background:#efefef;
+	text-align:center;overflow: hidden;
+	border:1px solid #ccc;
+	cursor: pointer;
+}
+.searchresult ul li a{color:#000;}
+.searchresult ul li a:hover{color:red;}
+.container{
+	text-align:left;
+}
+.ope{height:auto;}
+.tip{color:red;}
+#memo{width:60%;height:80px;}
+.important{background: #efefef;}

@@ -1,0 +1,13 @@
+
+.menu{
+	margin:0px 10px 0px 10px;
+	background: url("/imgs/content_bg_slice-2e234d4b4095b97a7f901ddc3194d517.png") repeat-x scroll 0 0 #D2D1D0;
+	height:80px;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=4);/*ie*/
+	-moz-box-shadow: 2px 2px 10px #909090;/*firefox*/
+	-webkit-box-shadow: 2px 2px 10px #909090;/*safari或chrome*/
+	box-shadow:2px 2px 10px #909090;/*opera或ie9*/
+}
+.container a{color:#0defc0;}
+.userInfo{border:1px solid #ccc;padding:10px;margin:10px;}
+.userInfo li{text-align:left;padding:10px;}

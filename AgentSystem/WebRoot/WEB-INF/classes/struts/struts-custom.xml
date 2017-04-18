@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+    <!DOCTYPE struts PUBLIC   
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="custom" namespace="/" extends="global">
+	 <default-interceptor-ref name="adminIntegerceptor"></default-interceptor-ref>
+		<!-- 设置Action -->
+		<action name="customlist" class="customAction" method="customList">
+			<result name="success">/WEB-INF/pages/customlist.jsp</result>
+		</action>
+		<action name="addcustom" class="customAction">
+			<result>/WEB-INF/pages/addcustom.jsp</result>
+		</action>
+		<action name="loadcity" class="customAction" method="loadCity">
+		</action>
+		<action name="loadarea" class="customAction" method="loadArea">
+		</action>
+		<action name="isExitCustomName" class="customAction" method="isExitCustomName">
+		</action>
+		<action name="addsavecustom" class="customAction" method="addCustom">
+			<result name="success" type="redirectAction">customlist</result>
+			<result name="input">/WEB-INF/pages/addcustom.jsp</result>
+		</action>
+		<action name="viewcustom" class="customAction" method="getCustomContactById">
+			<result name="success">/WEB-INF/pages/viewcustom.jsp</result>
+		</action> 
+		<action name="modifycustom" class="customAction" method="getCustomContactById">
+			<result name="success">/WEB-INF/pages/modifycustom.jsp</result>
+		</action> 
+        <action name="modifycustomstatus" class="customAction" method="modifyCustomStatus">
+        </action>
+        <action name="modifysavecustom" class="customAction" method="modifyCustom">
+			<!-- <result name="success" type="redirect">customlist.action?cname=${cname}</result>-->
+			<result name="success" >/WEB-INF/pages/customlist.jsp</result>
+			<result name="input">/WEB-INF/pages/modifycustom.jsp</result>
+		</action>
+	</package>
+</struts>  

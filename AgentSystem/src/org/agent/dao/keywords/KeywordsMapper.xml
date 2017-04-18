@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"    
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.agent.dao.keywords.KeywordsMapper">
+	<!--  
+	public List<Keywords> getList();
+	public Keywords getCustomById(Keywords keywords);
+	public int modifyKeywords(Keywords keywords);
+	public int addKeywords(Keywords keywords);
+	public int deleteKeywords(Keywords keywords);
+	public List<Keywords> getKeywordsBySearch(Keywords keywords);
+	
+	`keywords` varchar(100) NOT NULL,
+  `agentId` bigint(20) NOT NULL,
+  `agentName` varchar(255) NOT NULL,
+  `customId` bigint(20) NOT NULL,
+  `customName` varchar(255) NOT NULL,
+  `preRegFrozenMoney` decimal(10,0) NOT NULL DEFAULT '0',
+  `price` decimal(10,0) NOT NULL DEFAULT '0',
+  `productType` int(11) DEFAULT '0',
+  `serviceYears` int(11) DEFAULT '0',
+  `openApp` int(11) DEFAULT '0' COMMENT '0未开通 1 开通',
+  `appUserName` varchar(64) DEFAULT NULL,
+  `appPassword` varchar(70) DEFAULT NULL,
+  `loginUrl` varchar(255) DEFAULT NULL,
+  `iosDownloadUrl` varchar(255) DEFAULT NULL,
+  `androidDownloadUrl` varchar(255) DEFAULT NULL,
+  `bCodeIosUrl` varchar(255) DEFAULT NULL,
+  `bCodeAndroidUrl` varchar(255) DEFAULT NULL,
+  `preRegDatetime` datetime DEFAULT '2012-01-01 00:01:01',
+  `preRegPassDatetime` datetime DEFAULT '2012-01-01 00:01:01',
+  `regDatetime` datetime DEFAULT '2012-01-01 00:01:01',
+  `regPassDatetime` datetime DEFAULT '2012-01-01 00:01:01',
+  `isPass` int(11) DEFAULT '0' COMMENT '0为不过期，1为预注册过期，2为正式注册过期',
+  `checkStatus` int(11) DEFAULT '0' COMMENT '0为已申请 1为审核中 2为已通过 3未通过',
+  `isUse` int(11) DEFAULT '0' COMMENT '1为已使用 0为未使用',
+	-->
+	
+	<select id="count" resultType="int" parameterType="keywords">
+		select count(1) from as_keywords
+		<trim prefix="where" prefixOverrides="and | or">
+		 <if test=" agentId != null">
+			and agentId = #{agentId}
+		 </if> 
+		 <if test=" searchStr != null">
+			and keywords like #{searchStr}
+		 </if> 
+		 </trim>
+	</select>
+	
+	
+	<select id="getList" resultType="keywords" parameterType="keywords">
+		select * from as_keywords
+	</select>
+	
+	<select id="getKeywordsById" resultType="keywords" parameterType="keywords">
+		select * from as_keywords where id = #{id}
+	</select>
+	
+	<select id="getKeywordsByKeyword" resultType="keywords" parameterType="keywords">
+		select * from as_keywords where keywords = #{keywords} and checkStatus != 3
+	</select>
+	
+	<select id="getKeywordsBySearch" resultType="keywords" parameterType="keywords">
+		select * from as_keywords 
+		<trim prefix="where" prefixOverrides="and | or">
+			 <if test=" agentId != null">
+				and agentId = #{agentId}
+			 </if> 
+			 <if test=" searchStr != null">
+				and keywords like #{searchStr} order by  id desc limit #{starNum},#{pageSize}
+			 </if> 
+			<if test="searchStr == null">
+				and 1=1 order by  id desc limit #{starNum},#{pageSize}
+			 </if>
+		</trim>
+	</select>
+	
+	<insert id="addKeywords" parameterType="keywords">
+		insert into as_keywords (keywords,agentId,agentName,customId,customName,preRegFrozenMoney,price,productType,serviceYears,openApp,appUserName,
+		appPassword,loginUrl,iosDownloadUrl,androidDownloadUrl,codeIosUrl,codeAndroidUrl,preRegDatetime,preRegPassDatetime,regDatetime,regPassDatetime,
+		isPass,checkStatus,isUse) values(
+			#{keywords},
+			#{agentId},
+			#{agentName},
+			#{customId},
+			#{customName},
+			#{preRegFrozenMoney},
+			#{price},
+			#{productType},
+			#{serviceYears},
+			#{openApp},
+			#{appUserName},
+			#{appPassword},
+			#{loginUrl},
+			#{iosDownloadUrl},
+			#{androidDownloadUrl},
+			#{codeIosUrl},
+			#{codeAndroidUrl},
+			#{preRegDatetime},
+			#{preRegPassDatetime},
+			#{regDatetime},
+			#{regPassDatetime},
+			#{isPass},
+			#{checkStatus},
+			#{isUse}
+			)
+	</insert>
+	
+	<update id="modifyKeywords" parameterType="keywords">
+		update as_keywords
+		<set>
+			<if test="keywords != null">keywords = #{keywords},</if>
+			<if test="agentId != null">agentId = #{agentId},</if>
+			<if test="agentName != null">agentName = #{agentName},</if>
+			<if test="customId != null">customId = #{customId},</if>
+			<if test="customName != null">customName = #{customName},</if>
+			<if test="preRegFrozenMoney != null">preRegFrozenMoney = #{preRegFrozenMoney},</if>
+			<if test="price != null">price = #{price},</if>
+			<if test="productType != null">productType = #{productType},</if>
+			<if test="serviceYears != null">serviceYears = #{serviceYears},</if>
+			<if test="openApp != null">openApp = #{openApp},</if>
+			<if test="appUserName != null">appUserName = #{appUserName},</if>
+			<if test="appPassword != null">appPassword = #{appPassword},</if>
+			<if test="loginUrl != null">loginUrl = #{loginUrl},</if>
+			<if test="iosDownloadUrl != null">iosDownloadUrl = #{iosDownloadUrl},</if>
+			<if test="androidDownloadUrl != null">androidDownloadUrl = #{androidDownloadUrl},</if>
+			<if test="codeIosUrl != null">codeIosUrl = #{codeIosUrl},</if>
+			<if test="codeAndroidUrl != null">codeAndroidUrl = #{codeAndroidUrl},</if>
+			<if test="preRegDatetime != null">preRegDatetime = #{preRegDatetime},</if>
+			<if test="preRegPassDatetime != null">preRegPassDatetime = #{preRegPassDatetime},</if>
+			<if test="regDatetime != null">regDatetime = #{regDatetime},</if>
+			<if test="regPassDatetime != null">regPassDatetime = #{regPassDatetime},</if>
+			<if test="isPass != null">isPass = #{isPass},</if>
+			<if test="checkStatus != null">checkStatus = #{checkStatus},</if>
+			<if test="isUse != null">isUse = #{isUse}</if>
+		</set>
+		where id = #{id}
+	</update>
+	
+	
+	<delete id="deleteKeywords" parameterType="keywords">
+		delete from as_keywords where id = #{id}
+	</delete>
+	
+	<resultMap type="keywords" id="getPortalBySearch">
+		<result property="keywords" column="keywords"/>
+		<result property="agentId" column="agentId"/>
+		<result property="agentName" column="agentName"/>
+		<result property="customId" column="customId"/>
+		<result property="customName" column="customName"/>
+		<result property="preRegFrozenMoney" column="preRegFrozenMoney"/>
+		<result property="price" column="price"/>
+		<result property="productType" column="productType"/>
+		<result property="serviceYears" column="serviceYears"/>
+		<result property="openApp" column="openApp"/>
+		<result property="appUserName" column="appUserName"/>
+		<result property="appPassword" column="appPassword"/>
+		<result property="loginUrl" column="loginUrl"/>
+		<result property="iosDownloadUrl" column="iosDownloadUrl"/>
+		<result property="androidDownloadUrl" column="androidDownloadUrl"/>
+		<result property="codeIosUrl" column="codeIosUrl"/>
+		<result property="codeAndroidUrl" column="codeAndroidUrl"/>
+		<result property="preRegDatetime" column="preRegDatetime"/>
+		<result property="preRegPassDatetime" column="preRegPassDatetime"/>
+		<result property="regDatetime" column="regDatetime"/>
+		<result property="regPassDatetime" column="userCode"/>
+		<result property="isPass" column="isPass"/>
+		<result property="checkStatus" column="checkStatus"/>
+		<result property="isUse" column="isUse"/>
+		<result property="bossName" column="bossName"/>
+		<result property="customTypeName" column="customTypeName"/>
+	</resultMap>
+	
+	<select id="getPortalBySearch" resultMap="getPortalBySearch" parameterType="keywords">
+		select k.*,c.bossName as bossName,c.customTypeName as customTypeName from as_keywords k, as_customs c where k.openApp = 1 and k.customId = c.id
+		 <if test=" agentId != null">
+			and k.agentId = #{agentId}
+		 </if> 
+		 <if test=" keywords != null">
+			and k.keywords like  CONCAT('%',#{keywords},'%') 
+		 </if> 
+		 <if test=" customName != null">
+			and k.customName like  CONCAT('%',#{customName},'%')
+		 </if> 
+		 <!-- 
+		<if test="customType != null">
+			and customType = #{customType} 
+		 </if> -->
+		 order by id desc limit #{starNum},#{pageSize}
+	</select>
+	
+	<select id="portalcount" resultType="int" parameterType="keywords">
+		select count(1) from as_keywords k, as_customs c where k.openApp = 1 and k.customId = c.id
+		 <if test=" agentId != null">
+			and k.agentId = #{agentId}
+		 </if> 
+		 <if test=" keywords != null">
+			and k.keywords like CONCAT('%',#{keywords},'%') 
+		 </if> 
+		 <if test=" customName != null">
+			and k.customName like  CONCAT('%',#{customName},'%')
+		 </if> 
+		 <!--  
+		<if test="customType != null">
+			and customType = #{customType} 
+		 </if>-->
+	</select>
+	
+	
+</mapper>  
+	

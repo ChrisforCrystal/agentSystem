@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+    <!DOCTYPE struts PUBLIC   
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="user" namespace="/" extends="global">
+	 <default-interceptor-ref name="adminIntegerceptor"></default-interceptor-ref>
+		<!-- 设置Action -->
+		<action name="userlist" class="userAction" method="userList">
+			<result name="success" >/WEB-INF/pages/userlist.jsp</result>
+		</action>
+        <action name="edituser" class="userAction" method="editUser">
+        	<!-- <result name="success"  type="redirectAction">userlist?actionMessage=${actionMessage}</result> -->
+        </action>
+        <action name="deluser" class="userAction" method="delUser">
+        </action>
+       <action name="yfklist"  class="accountAction" method="yfk">
+       		<interceptor-ref name="adminIntegerceptor"></interceptor-ref> 
+       		<result name="success">/WEB-INF/pages/yfklist.jsp</result>
+       </action>  
+       <action name="loglist"  class="logAction" method="logList">
+       		<interceptor-ref name="adminIntegerceptor"></interceptor-ref> 
+       		<result name="success">/WEB-INF/pages/loglist.jsp</result>
+       </action>  
+	</package>
+</struts>  

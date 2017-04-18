@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"    
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.agent.dao.contact.ContactMapper">
+
+	
+	<select id="getContactList" resultType="contact" parameterType="contact">
+		select * from as_contacts 
+		<trim prefix="where" prefixOverrides="and | or">
+			<if test=" customId != null">
+				and customId = #{customId}
+			</if>
+		</trim>
+	</select>
+	
+	<insert id="addContact" parameterType="contact" >
+		 insert into as_contacts (customId,contactName,contactTel,contactFax,
+		 												contactEmail,contactRole) values (
+		 												#{customId},#{contactName},#{contactTel},
+		 												#{contactFax},#{contactEmail},#{contactRole}
+		 												)
+	</insert>
+	
+	<update id ="modifyContact" parameterType="contact">
+		update as_contacts set
+		 <trim prefix="where" prefixOverrides=",">
+			 <set>
+				 <if test="customId != null">  customId = #{customId},</if>
+				 <if test="contactName != null"> contactName = #{contactName},</if>
+				 <if test="contactTel != null">  contactTel = #{contactTel},</if>
+				 <if test="contactFax != null"> contactFax = #{contactFax},</if>
+				 <if test="contactEmail != null">  contactEmail = #{contactEmail},</if>
+				 <if test="contactRole != null"> contactRole = #{contactRole}</if>
+		     </set>
+		  	where id = #{id}
+		 </trim>
+	</update>
+	
+	<delete id ="deleteContact" parameterType="contact">
+		delete from as_contacts where customId = #{customId}
+	</delete>
+		
+</mapper>  

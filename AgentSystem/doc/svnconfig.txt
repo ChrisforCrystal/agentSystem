@@ -1,0 +1,15 @@
+svnserve.conf:
+[general]
+anon-access = read
+auth-access = write
+password-db = passwd
+authz-db = authz
+
+passwd:
+[users]
+harry = harryssecret
+
+authz:
+[groups]
+[/]
+harry = rw

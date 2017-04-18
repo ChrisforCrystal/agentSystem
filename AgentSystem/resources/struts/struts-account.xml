@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+    <!DOCTYPE struts PUBLIC   
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="caiwu" namespace="/" extends="global">
+		<default-action-ref name="pagenotfound"/>
+       <action name="searchuser"  class="accountAction" method="searchUser">
+       		<interceptor-ref name="adminIntegerceptor"></interceptor-ref> 
+       </action>   
+       <action name="opeaccount"  class="accountAction" method="opeaccount">
+       		<interceptor-ref name="adminIntegerceptor"></interceptor-ref> 
+       </action>   
+       <action name="account"  class="accountAction" method="getCurrentAccount">
+       		<interceptor-ref name="adminIntegerceptor"></interceptor-ref> 
+       </action>   
+       <action name="caiwu"  class="accountAction" method="caiwu">
+       		<interceptor-ref name="adminIntegerceptor"></interceptor-ref> 
+       		<result name="success">/WEB-INF/pages/caiwu.jsp</result>
+       </action>   
+       <action name="accountdetail"  class="accountAction" method="accountDetailByUserId">
+       		<interceptor-ref name="adminIntegerceptor"></interceptor-ref> 
+       		<result name="success">/WEB-INF/pages/accountdetail.jsp</result>
+       </action>   
+       <action name="yfk"  class="accountAction" method="yfk">
+       		<interceptor-ref name="adminIntegerceptor"></interceptor-ref> 
+       		<result name="success">/WEB-INF/pages/yfk.jsp</result>
+       </action>   
+	</package>
+</struts>  

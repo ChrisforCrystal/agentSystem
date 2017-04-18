@@ -1,0 +1,6 @@
+此系统支持在线安装功能：
+在线安装功能需要对部署包进行修改和调整，如下：
+1.删掉项目根目录下的installed文件
+2.将WEB-INF下的Copy of web-run.xml文件复制一份，并命名为web-run.xml
+3.将WEB-INF下的web-init.xml 复制一份改名为web.xml (如果之前有删除之前的)
+到此支持在线安装的修改方法就结束了。

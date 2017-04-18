@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+    <!DOCTYPE struts PUBLIC   
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="function" namespace="/" extends="global">
+	  <default-interceptor-ref name="adminIntegerceptor"></default-interceptor-ref> 
+		<!-- 设置Action -->
+		<action name="funclist" class="functionAction" method="funcList">
+			<result name="success" >/WEB-INF/pages/functionlist.jsp</result>
+		</action>
+		<action name="premission" class="functionAction" method="roleList">
+			<result name="success" >/WEB-INF/pages/premission.jsp</result>
+		</action>
+		<action name="saverolefunc" class="functionAction" method="saveRoleFunc">
+		</action>
+	</package>
+</struts>  

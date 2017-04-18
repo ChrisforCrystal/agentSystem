@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"    
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.agent.dao.custom.CustomMapper">
+	<!--  
+	
+	public List<Custom> getList();
+	public Custom getCustomById(Custom custom);
+	public int modifyCustom(Custom custom);
+	public int addCustom(Custom custom);
+	public int deleteCustom(Custom custom);
+	public List<Custom> getCustomBySearch(Custom custom);
+	-->
+	<select id="count" resultType="int" parameterType="custom">
+		select count(1) from as_customs
+		<trim prefix="where" prefixOverrides="and | or">
+			<if test = "customName != null ">
+				and customName like CONCAT('%',#{customName},'%')
+			</if>
+			<if test=" agentId != null">
+				and agentId = #{agentId}
+			</if>
+		</trim>
+	</select>
+	
+	<select id="isExitCustomName" resultType="int" parameterType="custom">
+		select count(1) from as_customs
+		<trim prefix="where" prefixOverrides="and | or">
+			<if test = "customName != null ">
+				and customName = #{customName}
+			</if>
+			<if test=" id != null">
+				and id != #{id}
+			</if>
+		</trim>
+	</select>
+	
+	<select id="getList" resultType="custom" parameterType="custom">
+		select * from as_customs 
+		<trim prefix="where" prefixOverrides="and | or">
+			<if test = "customName != null ">
+				and customName like CONCAT('%',#{customName},'%')
+			</if>
+			<if test=" agentId != null">
+				and agentId = #{agentId}
+			</if>
+		</trim>
+			limit #{starNum},#{pageSize}
+	</select>
+	
+	<select id="getCustomById" resultType="custom" parameterType="custom">
+		select * from as_customs where id = #{id}
+	</select>
+	
+	<select id="getCustomBySearch" resultType="custom" parameterType="custom">
+		select * from as_customs
+		<trim prefix="where" prefixOverrides="and | or">
+		<if test = "customName != null ">
+				and customName like CONCAT('%',#{customName},'%')
+			</if>
+			<if test=" customStatus != null">
+				and customStatus = #{customStatus}
+			</if>
+			<if test=" agentId != null">
+				and agentId = #{agentId}
+			</if>
+		</trim>
+		limit 10
+	</select>
+	
+	<insert id="addCustom" parameterType="custom">
+		insert into as_customs (agentId,agentCode,agentName,customName,customType,customTypeName,siteUrl,customStatus,bossName,cardType,cardTypeName,cardNum,companyTel,
+		companyFax,regDatetime,country,province,city,area,companyAddress,memo) values
+		(#{agentId},#{agentCode},#{agentName},#{customName},#{customType},#{customTypeName},#{siteUrl},#{customStatus},#{bossName},#{cardType},#{cardTypeName},#{cardNum},#{companyTel},
+		#{companyFax},#{regDatetime},#{country},#{province},#{city},#{area},#{companyAddress},#{memo})
+	</insert>
+	
+	<update id="modifyCustom" parameterType="custom">
+		update as_customs
+		<set>
+		<if test="agentId != null">agentId = #{agentId},</if>
+		<if test="agentCode != null">agentCode = #{agentCode},</if>
+		<if test="agentName != null">agentName = #{agentName},</if>
+		<if test="customName != null">customName = #{customName},</if>
+		<if test="customType != null">customType = #{customType},</if>
+		<if test="customTypeName != null">customTypeName = #{customTypeName},</if>
+		<if test="siteUrl != null">siteUrl = #{siteUrl},</if>
+		<if test="customStatus != null">customStatus = #{customStatus},</if>
+		<if test="bossName != null">bossName = #{bossName},</if>
+		<if test="cardType != null">cardType = #{cardType},</if>
+		<if test="cardTypeName != null">cardTypeName = #{cardTypeName},</if>
+		<if test="cardNum != null">cardNum = #{cardNum},</if>
+		<if test="companyTel != null">companyTel = #{companyTel},</if>
+		<if test="companyFax != null">companyFax = #{companyFax},</if>
+		<if test="regDatetime != null">regDatetime = #{regDatetime},</if>
+		<if test="country != null">country = #{country},</if>
+		<if test="province != null">province = #{province},</if>
+		<if test="city != null">city = #{city},</if>
+		<if test="area != null">area = #{area},</if>
+		<if test="companyAddress != null">companyAddress = #{companyAddress},</if>
+		<if test="memo != null">memo = #{memo}</if>
+		</set>
+		where id = #{id}
+	</update>
+	
+	<delete id="deleteCustom" parameterType="custom">
+		delete from as_customs where id = #{id}
+	</delete>
+	
+	<select id="getAddCustomId" resultType="int">
+		select LAST_INSERT_ID()
+	</select>
+	
+	<update id="modifyCustomStatus" parameterType="custom">
+		update as_customs 
+		<set>
+		<if test="customStatus ==1 ">customStatus = 0</if>
+		<if test="customStatus ==0 ">customStatus = 1</if>
+		</set>
+		where id = #{id}
+	</update>
+	
+</mapper>  
+	

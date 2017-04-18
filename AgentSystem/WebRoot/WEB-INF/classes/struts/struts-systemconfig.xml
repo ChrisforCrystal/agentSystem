@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+    <!DOCTYPE struts PUBLIC   
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	
+	<package name="systemconfig" namespace="/" extends="global">
+		<default-action-ref name="pagenotfound"/>
+		<!-- 设置Action -->
+		<action name="caiwutype" class="systemConfigAction" method="caiwuType">
+			<interceptor-ref name="adminIntegerceptor"></interceptor-ref>
+			<result name="success">/WEB-INF/pages/systemconfig.jsp</result>
+		</action>
+		<action name="servicetype" class="systemConfigAction" method="serviceType">
+			<interceptor-ref name="adminIntegerceptor"></interceptor-ref>
+			<result name="success">/WEB-INF/pages/systemconfig.jsp</result>
+		</action>
+		<action name="serviceyears" class="systemConfigAction" method="serviceYears">
+			<interceptor-ref name="adminIntegerceptor"></interceptor-ref>
+			<result name="success">/WEB-INF/pages/systemconfig.jsp</result>
+		</action>
+		<action name="appurl" class="systemConfigAction" method="appUrl">
+			<interceptor-ref name="adminIntegerceptor"></interceptor-ref>
+			<result name="success">/WEB-INF/pages/systemconfig.jsp</result>
+		</action>
+		<action name="customtype" class="systemConfigAction" method="customType">
+			<interceptor-ref name="adminIntegerceptor"></interceptor-ref>
+			<result name="success">/WEB-INF/pages/systemconfig.jsp</result>
+		</action>
+		<action name="cardtype" class="systemConfigAction" method="cardType">
+			<interceptor-ref name="adminIntegerceptor"></interceptor-ref>
+			<result name="success">/WEB-INF/pages/systemconfig.jsp</result>
+		</action>
+		<action name="youhuitype" class="systemConfigAction" method="youhuiType">
+			<interceptor-ref name="adminIntegerceptor"></interceptor-ref>
+			<result name="success">/WEB-INF/pages/systemconfig.jsp</result>
+		</action>
+		<action name="modifyconfig" class="systemConfigAction" method="modifyConfig">
+			<interceptor-ref name="adminIntegerceptor"></interceptor-ref>
+		</action>
+		<action name="isPeatConfig" class="systemConfigAction" method="isPeatConfig">
+			<interceptor-ref name="adminIntegerceptor"></interceptor-ref>
+		</action>
+		<action name="addconfig" class="systemConfigAction" method="addConfig">
+			<interceptor-ref name="adminIntegerceptor"></interceptor-ref>
+		</action>
+		<action name="deleteconfig" class="systemConfigAction" method="deleteConfig">
+			<interceptor-ref name="adminIntegerceptor"></interceptor-ref>
+		</action>
+		
+		
+		
+	</package>
+	
+</struts>  

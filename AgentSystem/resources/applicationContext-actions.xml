@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<!-- 这里配置Action -->
+	<!-- IndexAction -->
+	<bean id="indexAction" class="org.agent.action.index.IndexAction" scope="prototype" />
+	<bean id="loginAction" class="org.agent.action.LoginAction" scope="prototype" />
+	<bean id="roleAction" class="org.agent.action.RoleAction" scope="prototype" />
+	<bean id="accountAction" class="org.agent.action.AccountAction" scope="prototype" />
+	<bean id="systemConfigAction" class="org.agent.action.SystemConfigAction" scope="prototype" />
+	<bean id="userAction" class="org.agent.action.UserAction" scope="prototype" />
+	<bean id="functionAction" class="org.agent.action.FunctionAction" scope="prototype" />
+	<bean id="customAction" class="org.agent.action.CustomAction" scope="prototype" />
+	<bean id="keywordAction" class="org.agent.action.KeywordAction" scope="prototype" />
+	<bean id="logAction" class="org.agent.action.LogAction" scope="prototype" />
+	<bean id="portalAction" class="org.agent.action.PortalAction" scope="prototype" />
+	<bean id="reportAction" class="org.agent.action.ReportAction" scope="prototype" />
+</beans> 

@@ -1,0 +1,11 @@
+driverClassName=com.mysql.jdbc.Driver
+url=jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8
+username=root
+password=bdqn
+minIdle=50
+maxIdle=500
+initialSize=5
+maxActive=1000
+maxWait=2000
+removeAbandonedTimeout=180
+removeAbandoned=true

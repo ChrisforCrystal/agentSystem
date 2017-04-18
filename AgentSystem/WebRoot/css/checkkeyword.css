@@ -1,0 +1,17 @@
+.searchuserdiv{
+	height:32px;
+	padding:10px;
+	margin:10px;
+	border:1px solid #efefef;
+}
+.searchuserdiv li{padding:5px;text-align:left;}
+.searchuserdiv li b{color:red;}
+.ope{height:auto;}
+.container a{color:#000;}
+.container{height:auto;}
+td a{cursor: pointer;}
+.container table tr td .deletekeyword{color:red;}
+.container table tr td .openapp{color:blue;}
+.container table tr td .xufei{color:blue;}
+.okflow{color:green;}
+.noflow{color:red;}

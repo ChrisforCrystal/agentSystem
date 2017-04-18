@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+    <!DOCTYPE configuration   
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"   
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">  
+    <configuration>  
+        <settings>  
+            <!-- changes from the defaults -->  
+            <setting name="lazyLoadingEnabled" value="false" />  
+        </settings>  
+       <typeAliases>  
+           <!--这里给实体类取别名，方便在mapper配置文件中使用-->  
+           <typeAlias alias="base" type="org.agent.pojo.Base"/>
+           <typeAlias alias="province" type="org.agent.pojo.Province"/>
+           <typeAlias alias="account" type="org.agent.pojo.Account"/>
+           <typeAlias alias="accountDetail" type="org.agent.pojo.AccountDetail"/>
+           <typeAlias alias="area" type="org.agent.pojo.Area"/>
+           <typeAlias alias="city" type="org.agent.pojo.City"/>
+           <typeAlias alias="contact" type="org.agent.pojo.Contact"/>
+           <typeAlias alias="custom" type="org.agent.pojo.Custom"/>
+           <typeAlias alias="function" type="org.agent.pojo.Function"/>
+           <typeAlias alias="keywords" type="org.agent.pojo.Keywords"/>
+           <typeAlias alias="logs" type="org.agent.pojo.Logs"/>
+           <typeAlias alias="premission" type="org.agent.pojo.Premission"/>
+           <typeAlias alias="role" type="org.agent.pojo.Role"/>
+           <typeAlias alias="systemConfig" type="org.agent.pojo.SystemConfig"/>
+           <typeAlias alias="user" type="org.agent.pojo.User"/>
+           <typeAlias alias="reportProduct" type="org.agent.pojo.ReportProduct"/>
+       </typeAliases>  
+   </configuration>  

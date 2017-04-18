@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"    
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.agent.dao.report.ReportMapper">
+
+	<select id="accountBalance" parameterType="account" resultType="account">
+	select a.*,b.userName from agentsystemdb.as_account as a,agentsystemdb.as_user as b where a.userId = b.id 
+	</select>
+	
+	<select id="reportProduct" parameterType="reportProduct" resultType="reportProduct">
+	select systemconfig.configTypeName,count(1) as number,sum(price) as price from as_keywords as keywords,as_systemconfig as systemconfig 
+	where (keywords.productType = systemconfig.id) and keywords.isUse = 1 and keywords.checkStatus = 2 and systemconfig.configType = 2
+		<if test="startTime != null and endTime != null">
+			and keywords.regDatetime >= #{startTime} 
+			and #{endTime} >= keywords.regDatetime
+		</if>
+		<if test="startTime != null and endTime == null">
+			and keywords.regDatetime >= #{startTime} 
+		</if>
+		<if test="endTime != null and startTime == null">
+			and #{endTime} >= keywords.regDatetime
+		</if>
+	group by systemconfig.id
+	</select>
+	
+</mapper>  
+	

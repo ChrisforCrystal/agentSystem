@@ -1,0 +1,28 @@
+.modifySystemdiv{
+	margin:0 auto;
+	display:none;
+	border:1px solid #ccc;
+	background: #fff;
+	box-shadow: 0 1px 0 #FFF;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=4);/*ie*/
+	-moz-box-shadow: 2px 2px 10px #909090;/*firefox*/
+	-webkit-box-shadow: 2px 2px 10px #909090;/*safari»òchrome*/
+	box-shadow:2px 2px 10px #909090;/*opera»òie9*/
+	padding:20px;
+	position: absolute;
+	top:-3px;
+	left:300px;
+}
+.modifySystemdiv li{padding:5px;text-align:left;}
+.container{height:auto;position: relative;}
+.modifySystemBtn,.deleteSystemBtn{cursor: pointer;}
+.modifySystemBtn a,.deleteSystemBtn a{color:#000;}
+.modifySystemBtn a:hover,.deleteSystemBtn a:hover{color:red;}
+.addSystemConfig{text-align:left;height:32px;line-height: 32px;padding-left:15px;}
+.addSystemConfig input{font-size:14px;font-weight:bold;}
+.modifySystemdiv ul .lititle{text-align:center;border-bottom:1px solid #ccc;margin:0px 0px 5px 0px;}
+.addback{background: #e5ffe0;}
+.modifyback{background: #fffbd8;}
+.simpleconfig{border:1px solid #ccc;margin:10px; padding:20px;}
+.simpleconfig li{padding:10px;}
+h3{padding:15px;border-bottom: 1px solid #ccc;}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"    
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.agent.dao.systemconfig.SystemConfigMapper">
+	<!--  
+	public List<SystemConfig> getSystomConfigs(SystemConfig systemConfig);
+	public int addSystemConfig(SystemConfig systemConfig);
+	public int modifySystemConfig(SystemConfig systemConfig);
+	public int deleteSystemConfig(SystemConfig systemConfig);
+	-->
+	
+	<select id="getSystomConfigs" resultType="systemConfig" parameterType="systemConfig">
+		select * from as_systemconfig
+		<trim prefix="where" prefixOverrides="and | or">
+			<if test="isStart != null">
+				and isStart = #{isStart}
+			</if>
+			<if test="configType != null">
+				and configType = #{configType}
+			</if>
+			<if test="id != null">
+				and id = #{id}
+			</if>
+		</trim>
+	</select>
+	<select id="getSystomConfigsIsStart" resultType="systemConfig" parameterType="systemConfig">
+		select * from as_systemconfig where isStart=1
+			<if test="configType != null">
+				and configType = #{configType}
+			</if>
+			<if test="id != null">
+				and id = #{id}
+			</if>
+	</select>
+	<select id="maxTypeValueByType" resultType="int">
+		select max(configTypeValue) from as_systemconfig where configType = #{type}
+	</select>
+	
+	<insert id="addSystemConfig" parameterType="systemConfig">
+		insert into as_systemconfig (configType,configTypeName,configTypeValue,configValue,isStart) 
+		values(#{configType},#{configTypeName},#{configTypeValue},#{configValue},#{isStart})
+	</insert>
+	
+	
+	<update id="modifySystemConfig" parameterType="systemConfig">
+		update as_systemconfig 
+		<set>
+			<if test="configType != null"> configType = #{configType},</if>		
+			<if test="configTypeName != null"> configTypeName = #{configTypeName},</if>		
+			<if test="configTypeValue != null"> configTypeValue = #{configTypeValue},</if>		
+			<if test="configValue != null"> configValue = #{configValue},</if>		
+			<if test="isStart != null"> isStart = #{isStart}</if>		
+		</set>
+		where id = #{id}
+	</update>
+	
+	
+	<delete id="deleteSystemConfig" parameterType="systemConfig">
+		delete from as_systemconfig where id = #{id}
+	</delete>
+	
+	<select id="isPeatConfig" resultType="int" parameterType="systemConfig">
+		select count(*) from as_systemconfig 
+		<trim prefix="where" prefixOverrides="and | or">
+			<if test="configType != null">
+				and configType = #{configType}
+			</if>
+			<if test="configTypeName != null">
+				and configTypeName = #{configTypeName}
+			</if>
+			<if test="id != null">
+				and id != #{id}
+			</if>
+		</trim>
+	</select>
+	
+</mapper>  

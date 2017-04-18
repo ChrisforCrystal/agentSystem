@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=2.0" name="viewport" />
+<style type="text/css">
+body{
+	font-size:16px;
+	font-family:"宋体",Verdana, Geneva, sans-serif;
+	padding:0px;
+	margin:0px;
+}
+ul,li,h1,h2,h3,h4,h5,h6,p,input{
+	padding:0px;
+	margin:0px;
+}
+ul{
+	list-style-type:none;
+}
+a{
+	text-decoration:none;
+	color:#585858;
+}
+img{
+ 	border:0px;
+}
+.clear{
+	height:0px;
+	line-height:0px;
+	clear:both;
+}
+.content{
+	margin-left:15px;
+	margin-top:15px;
+	background:#ffffff;
+	overflow:hidden;
+}
+.heard span:nth-child(2){
+	display:inline-block;
+	position:relative;
+	top:14px;
+	left:5px;
+}
+.content_main ul{
+	margin-top:28px;
+	margin-left:5px;
+}
+.content_main ul li{
+	color:#c0c0c0;
+	font-weight:bold;
+	padding-left:23px;
+	background:url(../imgs/ico.png) 1px no-repeat;
+	margin-top:10px;
+}
+.content_main ul li:nth-child(2){
+	margin-left:30px;
+}
+.content_main ul li:nth-child(3){
+	margin-left:58px;
+}
+.friendLink{
+	margin-top:30px;
+	margin: 30px 5px 0 5px;
+}
+.friendLink a{
+	float:left;
+	display:inline-block;
+	background:#e1ecf4;
+	font-size:14px;
+	padding:6px;
+	margin:3px;
+}
+</style>
+<title>404</title>
+</head>
+
+<body>
+	<div class="content">
+    	<div class="heard">
+        	<span><img src="../imgs/404.png" width="191" height="48" alt="404"></span>
+        	<span><img src="../imgs/ico3.png"  alt=""></span>
+        </div>
+        <div class="content_main">
+        	<ul>
+            	<li>你所查看的页面不存在.</li>
+                <li>输入地址不正确.</li>
+                <li>页面重定义或程序出错.</li>
+            </ul>
+        </div>
+        <div class="friendLink">
+        	<a href="http://lpdl.yilianapp.com">楼盘代理</a>
+            <a href="http://mrmfw.yilianapp.com">美容美发网</a>
+            <a href="http://zgxdsb.yilianapp.com">中国洗涤设备</a>
+            <a href="http://jiajuc.yilianapp.com">家具城</a>
+            <a href="http://nzsc.yilianapp.com">女装商城</a>
+            <a href="http://zgyz.yilianapp.com">中国养殖平台</a>
+            <a href="http://jiazhuang.yilianapp.com">家装网</a>
+            <a href="http://sxjdw.yilianapp.com">山西酒店网</a>
+        </div>
+    </div>
+</body>
+</html>

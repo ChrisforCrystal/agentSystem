@@ -1,0 +1,11 @@
+.searchuserdiv{
+	height:32px;
+	padding:10px;
+	margin:10px;
+	border:1px solid #efefef;
+}
+.searchuserdiv li{padding:5px;text-align:left;}
+.searchuserdiv li b{color:red;}
+.ope{height:auto;}
+.container a{color:#000;}
+.container{height:auto;}

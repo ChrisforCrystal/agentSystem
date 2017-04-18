@@ -1,0 +1,143 @@
+用户账户表：as_account
+Id bigint PK step 1
+Userid bigint //用户ID号
+Money numeric //账户资金数 默认0.00
+MoneyBak numeric //账户资金备份，资金账户可用的前提是Money 和 MoneyBak 相同。
+
+账务明细（流水）表：as_accountDetail
+Id bigint PK step 1
+Userid bigint //用户ID号
+DetailType //流水类型
+DetailTypeName //流水类型名称
+Money //l流水金额
+accountMoney //账户余额
+Memo //备注
+DetailDatetime  //流水产生时间
+----系统配置表：as_systemConfig
+Id bigint PK step 1
+---------------------------------------------------------------------------
+账务流水配置
+configType //系统配置类型{账务流水类型：1}
+configTypeName //系统配置类型名称{代理款，代理款预录，罚款，返款，退费，消费，代理款冲抵，财务打款，冻结，扣费，其他}
+configTypeValue //系统配置类型值{1,2,3,4…}
+configValue //系统配置值{账务流水无需配置系统配置值}
+isStart //是否启用 ，1为启用0为不启用
+---------------------------------------------------------------------------
+关键词价格配置：
+configType ： 2 � 关键词价格配置类型ID号
+configTypeName：关键词价格类型名称 � {上传苹果商城，不上传苹果商城}
+configTypeValue：{1，2}
+configValue: {26000,18000}
+---------------------------------------------------------------------------
+关键词销售年限配置：
+configType:3 � 关键词销售年限配置ID号。
+configTypeName ： 销售年限
+configTypeVlaue ： （无需配置和填写）
+configValue：{3} 这里的数据位可销售的最大年限。
+isStart ：{不可改动，系统必须配置项，默认为1}
+---------------------------------------------------------------------------
+
+
+关键词表：as_keywords
+Id bigint PK step 1
+Keyword varchar 100 // 关键词名称
+AgentId //所属代理商ID号
+AgentName 所属代理商名称
+customid 客户ID号
+customName 客户名称
+preRegFrozenMoney //预注册冻结资金
+price //消费价格
+productType 产品类型，上传到苹果或不上传到苹果 默认0
+serviceYears //开通年限 默认0
+openApp //是否开通APP 0未开通 1 开通
+appUsername //APP制作系统的账号
+appPassword //APP 制作系统的密码
+loginUrl //制作APP系统的登录地址
+iosDownloadUrl//IOS的下载地址
+androidDownloadUrl//安卓的下载地址
+2dCodeIosUrl //ios二维码的下载地址
+2dCodeAndroidUrl//Android二维码的下载地址
+preRegDatetime //预注册时间
+preRegPassDatetime //预注册到期时间
+regDateTime //正式注册时间
+regPassDatetime //正式注册到期时间
+isPass//1为预注册过期 2为正式注册过期0为不过期，1为预注册过期，2为正式注册过期
+checkStatus //审核状态 0为已申请 1为审核中 2为已通过 3未通过
+isUse //使用状态，1为已使用 0为未使用
+
+
+keyword需要建立索引
+---------------------------------------------------------------------------
+APP制作系统的登录地址配置：
+configType:4 � APP制作系统的登录配置ID号。
+configTypeName ： APP制作系统登录地址
+configTypeVlaue ： （无需配置和填写）
+configValue：{http：//} APP制作系统的登录地址URL。
+isStart ：{不可改动，系统必须配置项，默认为1}
+
+
+
+代理商客户表：as_customs
+Id bigint PK step 1
+Agentid 所属代理商ID号
+Agentname 所属代理商名称
+customName 用户名称 | 企业名称
+customType 用户类型 | 企业类型 {企业 个人 政府}
+customTypeName 用户类型名称
+-------------------------------------------------------------------------
+用户类型配置
+configType //用户类型配置 - 5
+configTypeName //用户类型配置名称{企业 个人 政府}
+configTypeValue //用户类型配置值{1,2,3}
+configValue //用户类型配置值{用户类型配置无需配置系统配置值}
+isStart //是否启用 ，1为启用0为不启用
+--------------------------------------------------------------------------------------------
+Siteurl 企业主页url
+Userstatus 客户状态 （停用和启用）1为启用0为不启用
+
+####门户信息类
+BossName //法人代表
+cardType 证件类型 � 6 {国内身份证、境外身份证、营业执照和其他证件}
+-------------------------------------------------------------------------
+证件类型配置
+configType //证件类型配置- 6
+configTypeName //证件类型配置名称
+{国内身份证、境外身份证、营业执照和其他证件}
+configTypeValue //证件类型配置值{1,2,3}
+configValue //证件类型配置值{证件类型配置无需配置系统配置值}
+isStart //是否启用 ，1为启用0为不启用
+--------------------------------------------------------------------------------------------
+cardTypeName 证件类型名称
+cardNum 证件号码
+companyTel 公司电话
+companyFax 公司传真
+regDatetime 公司注册日期
+country 国家
+province 省份
+city 城市
+area 区
+companyAddress 公司地址
+memo 备注
+contact varchar 255  【contactId list】联系人。保存联系人的ID 列表
+
+
+联系人表：as_contacts
+Id bigint PK step 1
+Customid //代理商客户ID号
+contactName //联系人名称
+contactTel //联系人电话
+contactFax //联系人传真
+contactEmail //email
+contactRole //联系人职务
+
+
+日志表：logs
+Id bigint PK step 1
+userId : 用户ID
+userName：用户名称
+operateInfo ： 用户操作信息记录
+operateDatetime ： 操作时间
+
+需要记录的日志：
+所有的功能操作记录
+

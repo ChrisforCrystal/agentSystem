@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans xmlns="http://www.springframework.org/schema/beans"  
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+        xmlns:aop="http://www.springframework.org/schema/aop"  
+        xmlns:tx="http://www.springframework.org/schema/tx"  
+        xsi:schemaLocation="   
+            http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd   
+            http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd   
+            http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd">  
+        
+         
+        <bean id="systemConfigService" class="org.agent.service.systemconfig.SystemConfigServiceImpl"></bean>         
+        <bean id="provinceAndCitysService" class="org.agent.service.provinceandcity.ProvinceAndCitysServiceImpl"></bean>         
+        <bean id="customService" class="org.agent.service.custom.CustomServiceImpl"></bean>         
+        <bean id="keywordsService" class="org.agent.service.keywords.KeywordsServiceImpl"></bean>         
+        <bean id="logsService" class="org.agent.service.logs.LogsServiceImpl"></bean>         
+        <bean id="premissionService" class="org.agent.service.premission.PremissionServiceImpl"></bean>         
+        <bean id="accountService" class="org.agent.service.account.AccountServiceImpl"></bean>     
+        <bean id="accountDetailService" class="org.agent.service.accountdetail.AccountDetailServiceImpl"></bean>     
+ 		<bean id="contactService" class="org.agent.service.contact.ContactServiceImpl"></bean>     
+	    <bean id="roleService" class="org.agent.service.role.RoleServiceImpl"></bean>     
+		<bean id="functionService" class="org.agent.service.function.FunctionServiceImpl"></bean>     
+		<bean id="userService" class="org.agent.service.user.UserServiceImpl"></bean>       
+		<bean id="reportService" class="org.agent.service.report.ReportServiceImpl"></bean>       
+</beans>  

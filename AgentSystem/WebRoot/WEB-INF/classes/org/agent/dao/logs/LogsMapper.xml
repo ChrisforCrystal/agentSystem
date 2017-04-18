@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"    
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.agent.dao.logs.LogsMapper">
+	<!--  
+	public List<Logs> getList(Logs logs);
+	public int addLogs(Logs logs);
+	`userId` bigint(20) NOT NULL,
+  `userName` varchar(60) NOT NULL,
+  `operateInfo` varchar(255) NOT NULL,
+  `operateDatetime` datetime NOT NULL DEFAULT '2012-01-01 00:01:01',
+	-->
+	<select id="getList" resultType="logs" parameterType="logs">
+		select * from as_logs
+		<trim prefix="where" prefixOverrides="and | or">
+		<if test="userId != null">
+		 	and userId = #{userId}
+		</if>
+		<if test="operateDatetime != null">
+		 	and operateDatetime like  CONCAT('%',#{odt},'%')
+		</if>
+		order by operateDatetime desc limit #{starNum},#{pageSize}
+		</trim>
+	</select>
+	
+	<insert id="addLogs" parameterType="logs">
+		insert into as_logs (userId,userName,operateInfo,operateDatetime) values(
+			#{userId},
+			#{userName},
+			#{operateInfo},
+			#{operateDatetime}
+			)
+	</insert>
+	
+	<select id="count" resultType="int" parameterType="logs">
+		select count(1) from as_logs
+		<trim prefix="where" prefixOverrides="and | or">
+		<if test="userId != null">
+		 	and userId = #{userId}
+		</if>
+		<if test="operateDatetime != null">
+		 	and operateDatetime like  CONCAT('%',#{odt},'%')
+		</if>
+		</trim>
+	</select>
+	
+</mapper>  
+	

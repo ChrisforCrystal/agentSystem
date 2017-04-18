@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+    <!DOCTYPE struts PUBLIC   
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="login" namespace="/" extends="global">
+		<default-action-ref name="pagenotfound"/>
+		<!-- 设置Action -->
+		<action name="login" class="loginAction" method="login">
+			<result name="input">/WEB-INF/pages/login.jsp</result>
+			<result name="success" type="redirectAction">main</result>
+		</action>
+		
+		<action name="validateLoginUser" class="loginAction" method="validateLoginUser">
+		</action>
+	
+       <action name="main"  class="loginAction" method="main">
+       <interceptor-ref name="adminIntegerceptor"></interceptor-ref>
+            <result name="success">/WEB-INF/pages/main.jsp</result>   
+        </action>   
+       <action name="exit" method="exit" class="loginAction">
+            <result name="success">/WEB-INF/pages/login.jsp</result>   
+        </action>  
+	</package>
+</struts>  

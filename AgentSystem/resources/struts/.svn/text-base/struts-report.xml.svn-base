@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+    <!DOCTYPE struts PUBLIC   
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="report" namespace="/" extends="global">
+		<!-- 设置Action -->
+		<action name="report" class="reportAction" method="report">
+			<interceptor-ref name="adminIntegerceptor"></interceptor-ref> 
+			<result name="success">/WEB-INF/pages/report.jsp</result>
+		</action>
+		<action name="reportaccount" class="reportAction" method="reportFile">
+			<interceptor-ref name="adminIntegerceptor"></interceptor-ref> 
+		</action>
+		<action name="reportaccounte" class="reportAction" method="reportFileExcel">
+			<interceptor-ref name="adminIntegerceptor"></interceptor-ref> 
+		</action>
+		<action name="reportYfkpdf" class="reportAction" method="reportYfkPdf">
+			<interceptor-ref name="adminIntegerceptor"></interceptor-ref> 
+		</action>
+		<action name="reportYfke" class="reportAction" method="reportYfkExcel">
+			<interceptor-ref name="adminIntegerceptor"></interceptor-ref> 
+		</action>
+		<action name="reportdlspdf" class="reportAction" method="reportDlsPdf">
+			<interceptor-ref name="adminIntegerceptor"></interceptor-ref> 
+		</action>
+		<action name="reportdlse" class="reportAction" method="reportDlsExcel">
+			<interceptor-ref name="adminIntegerceptor"></interceptor-ref> 
+		</action>
+	</package>
+</struts>  

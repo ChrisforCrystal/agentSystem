@@ -1,0 +1,1 @@
+<%@ page language="java" import="java.util.*,org.agent.install.InstallObject" pageEncoding="utf-8"%><%=InstallObject.install(request, session)%>

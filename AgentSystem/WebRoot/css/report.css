@@ -1,0 +1,15 @@
+.searchuserdiv{
+	height:32px;
+	padding:10px;
+	margin:10px;
+	border:1px solid #efefef;
+}
+.searchuserdiv li{padding:5px;text-align:left;}
+.searchuserdiv li b{color:red;}
+.ope{height:auto;}
+.container a{color:#000;}
+.container{height:auto;}
+.container h1{padding:10px;}
+.downloadfile{padding:20px;text-align:left;}
+.downloadfile li{display:table-cell;  width:100px;height:26px; position:relative; float: right;}
+.downloadfile li a{position: absolute;top:5px;}

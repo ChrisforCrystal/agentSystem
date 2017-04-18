@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+    <!DOCTYPE struts PUBLIC   
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="keyword" namespace="/" extends="global">
+	  <default-interceptor-ref name="adminIntegerceptor"></default-interceptor-ref> 
+		<!-- 设置Action -->
+		<action name="keyword" class="keywordAction" method="init">
+			<result name="success" >/WEB-INF/pages/keyword.jsp</result>
+		</action>
+		<action name="searchcustom" class="keywordAction" method="searchCustom">
+		</action>
+		<action name="valikey" class="keywordAction" method="valiKeyword">
+		</action>
+		<action name="jisuan" class="keywordAction" method="jisuanPrice">
+		</action>
+		<action name="submitkeyword" class="keywordAction" method="submitKeyword">
+		</action>
+		<action name="keywordsxufei" class="keywordAction" method="keywordsXuFei">
+		</action>
+		<action name="updatekeyword" class="keywordAction" method="updateKeyword">
+		</action>
+		<action name="deletekeyword" class="keywordAction" method="deleteKeyword">
+		</action>
+		<action name="openapp" class="keywordAction" method="openApp">
+		<result name="success" >/WEB-INF/pages/openapp.jsp</result>
+		</action>
+		<action name="xufei" class="keywordAction" method="xuFei">
+		<result name="success" >/WEB-INF/pages/xufei.jsp</result>
+		</action>
+		<action name="modifyapp" class="keywordAction" method="modifyApp">
+		<result name="success" >/WEB-INF/pages/openapp.jsp</result>
+		</action>
+		<action name="keywordmanage" class="keywordAction" method="keywordManage">
+			<result name="success" >/WEB-INF/pages/keywordmanage.jsp</result>
+		</action>
+		<action name="checkkeyword" class="keywordAction" method="checkKeyword">
+			<result name="success" >/WEB-INF/pages/checkkeyword.jsp</result>
+		</action>
+		<action name="myportalmanage" class="portalAction" method="myPortalManage">
+			<result name="success" >/WEB-INF/pages/myportallist.jsp</result>
+		</action>
+		<action name="viewportal" class="portalAction" method="getPortalInfoById">
+			<result name="success">/WEB-INF/pages/viewportal.jsp</result>
+		</action> 
+		<action name="modifyportal" class="portalAction" method="getPortalInfoById">
+			<result name="success">/WEB-INF/pages/modifyportal.jsp</result>
+		</action> 
+		<action name="modifysaveportal" class="portalAction" method="modifyPortal">
+			<result name="success" >/WEB-INF/pages/myportallist.jsp</result>
+			<result name="input">/WEB-INF/pages/modifyportal.jsp</result>
+		</action> 
+		
+	</package>
+</struts>  

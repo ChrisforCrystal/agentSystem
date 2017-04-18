@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"    
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.agent.dao.provinceandcity.ProvinceAndCitysMapper">
+	<!--  
+	public List<Province> getProvinceList();
+	public List<City> getCitys(Province province);
+	public List<Area> getAreas(City city);
+	-->
+	
+	<select id="getProvinceList" resultType="province">
+		select * from hat_province
+	</select>
+	
+	<select id="getCitys" resultType="city" parameterType="province">
+		select * from hat_city where father = #{provinceID}
+	</select>
+	
+	<select id="getAreas" resultType="area" parameterType="city">
+		select * from hat_area where father = #{cityID}
+	</select>
+	
+	
+</mapper>  
+	

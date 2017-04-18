@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+    <!DOCTYPE struts PUBLIC   
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	
+	<package name="index" namespace="/" extends="global">
+		<default-action-ref name="pagenotfound"/>
+		<!-- 设置Action -->
+		<action name="index" class="indexAction" method="execute">
+			<result name="success">/index.jsp</result>
+		</action>
+		<action name="modifypwd" class="indexAction" method="modifyPwd">
+		<interceptor-ref name="adminIntegerceptor"></interceptor-ref>
+		</action>
+		
+		
+		
+	</package>
+	
+</struts>  

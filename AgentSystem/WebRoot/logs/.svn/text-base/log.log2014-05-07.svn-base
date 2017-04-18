@@ -1,0 +1,423 @@
+2014-5-7 09:13:05[ERROR](SystemInit.java:52) ------------>11
+2014-5-7 09:13:05[ERROR](SystemInit.java:53) ------------>3
+2014-5-7 09:13:05[ERROR](SystemInit.java:54) ------------>5
+2014-5-7 09:13:05[ERROR](SystemInit.java:55) ------------>http//javamall.bdqn.cn
+2014-5-7 09:13:05[ERROR](SystemInit.java:56) ------------>6
+2014-5-7 09:13:05[ERROR](SystemInit.java:57) ------------>6
+2014-5-7 09:13:05[ERROR](SystemInit.java:98) Role list:9
+2014-5-7 09:13:05[ERROR](SystemInit.java:104) init datas end.
+2014-5-7 09:13:10[ERROR](LoginAction.java:98) User login : hanlu - º«Â¶
+2014-5-7 09:13:20[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 09:13:23[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 09:15:16[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 09:15:21[ERROR](ReportAction.java:595) ^^^^^^^^^^^^^^^^3
+2014-5-7 09:15:25[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 09:15:26[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 09:16:44[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 09:17:03[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 09:17:04[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 09:17:53[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 09:18:00[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 09:18:02[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 09:18:59[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 09:19:06[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 09:19:07[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 09:20:43[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 09:21:06[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 09:21:10[ERROR](ReportAction.java:595) ^^^^^^^^^^^^^^^^3
+2014-5-7 09:21:13[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 09:21:14[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 09:25:02[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 09:25:07[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 09:25:09[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 09:28:11[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 09:28:17[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 09:28:19[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 10:00:59[ERROR](LoginAction.java:98) User login : hanlu - º«Â¶
+2014-5-7 10:01:04[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 10:01:06[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 10:03:07[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 10:03:10[ERROR](ReportAction.java:563) ^^^^^^^^^^^^^^^^1^^^^^^^10
+2014-5-7 10:03:12[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 10:03:13[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 10:40:31[ERROR](LoginAction.java:98) User login : hanlu - º«Â¶
+2014-5-7 10:40:36[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 10:40:38[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 10:42:15[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 10:42:20[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 10:42:22[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 10:43:23[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 10:43:28[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 10:43:29[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 10:45:01[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 10:45:28[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 10:45:29[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 10:48:37[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 10:48:41[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 10:48:42[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 10:51:26[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 10:51:30[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 10:51:31[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 10:53:26[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 10:53:29[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 10:53:31[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 10:54:41[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 10:54:45[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 10:54:46[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 10:55:20[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 10:55:23[ERROR](ReportAction.java:563) ^^^^^^^^^^^^^^^^1^^^^^^^10
+2014-5-7 10:55:29[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 10:55:32[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 10:56:05[ERROR](SystemInit.java:52) ------------>12
+2014-5-7 10:56:05[ERROR](SystemInit.java:53) ------------>5
+2014-5-7 10:56:05[ERROR](SystemInit.java:54) ------------>5
+2014-5-7 10:56:05[ERROR](SystemInit.java:55) ------------>http//javamall.bdqn.cn
+2014-5-7 10:56:05[ERROR](SystemInit.java:56) ------------>8
+2014-5-7 10:56:05[ERROR](SystemInit.java:57) ------------>7
+2014-5-7 10:56:05[ERROR](SystemInit.java:98) Role list:8
+2014-5-7 10:56:05[ERROR](SystemInit.java:104) init datas end.
+2014-5-7 10:57:29[ERROR](LoginAction.java:98) User login : hanlu - º«Â¶
+2014-5-7 10:57:35[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 10:57:36[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 10:58:58[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 10:59:02[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 10:59:04[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 10:59:18[ERROR](LoginAction.java:98) User login : hanlu - º«Â¶
+2014-5-7 10:59:22[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 10:59:24[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 11:00:08[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 11:00:12[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 11:00:14[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 11:00:20[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 11:00:22[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 11:02:04[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 11:02:08[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 11:02:09[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 11:03:10[ERROR](LoginAction.java:98) User login : hanlu - º«Â¶
+2014-5-7 11:03:18[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 11:03:20[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 11:04:04[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 11:13:51[ERROR](LoginAction.java:98) User login : hanlu - º«Â¶
+2014-5-7 11:13:57[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 11:13:58[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 11:15:16[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 11:15:18[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 11:15:23[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 11:34:34[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 11:34:36[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 11:37:27[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 11:37:30[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 11:38:00[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 11:38:03[ERROR](ReportAction.java:595) ^^^^^^^^^^^^^^^^3
+2014-5-7 11:38:06[ERROR](ReportAction.java:595) ^^^^^^^^^^^^^^^^3
+2014-5-7 11:38:10[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 11:38:21[ERROR](ReportAction.java:595) ^^^^^^^^^^^^^^^^3
+2014-5-7 11:38:24[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 11:39:39[ERROR](ReportAction.java:595) ^^^^^^^^^^^^^^^^3
+2014-5-7 11:39:44[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 11:39:46[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 11:45:44[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 11:45:47[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 13:18:14[ERROR](LoginAction.java:98) User login : hanlu - º«Â¶
+2014-5-7 13:18:19[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 13:18:21[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 13:51:53[ERROR](LoginAction.java:98) User login : hanlu - º«Â¶
+2014-5-7 13:52:00[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 13:52:01[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 13:57:50[ERROR](KeywordAction.java:331) xxxxxxxxxxxxxxxxxxxxx26
+2014-5-7 13:57:50[ERROR](KeywordAction.java:332) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-7 13:57:50[ERROR](KeywordAction.java:333) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-7 13:58:15[ERROR](KeywordAction.java:78) --->10
+2014-5-7 13:58:20[ERROR](KeywordAction.java:279) -------->12-1
+2014-5-7 13:58:20[ERROR](KeywordAction.java:297) ++++++++++++>26000*1
+2014-5-7 13:58:24[ERROR](KeywordAction.java:279) -------->12-1
+2014-5-7 13:58:24[ERROR](KeywordAction.java:297) ++++++++++++>26000*1
+2014-5-7 13:58:24[ERROR](KeywordAction.java:192) ccount.getMoney().doubleValue():1.358693802E7
+2014-5-7 13:58:24[ERROR](KeywordAction.java:193) new BigDecimal(price).doubleValue():26000.0
+2014-5-7 13:58:24[ERROR](KeywordAction.java:194) >>>>>>>>>>>>>>>>>:true
+2014-5-7 13:58:24[ERROR](KeywordAction.java:195) +++++---------------+++26000 keyword : abcdCustomId:2CustomName:ÑÛ¾µÖÐÐÄÓªÒµÌü
+2014-5-7 13:58:29[ERROR](KeywordAction.java:279) -------->12-1
+2014-5-7 13:58:29[ERROR](KeywordAction.java:297) ++++++++++++>26000*1
+2014-5-7 13:58:29[ERROR](KeywordAction.java:192) ccount.getMoney().doubleValue():1.358693802E7
+2014-5-7 13:58:29[ERROR](KeywordAction.java:193) new BigDecimal(price).doubleValue():26000.0
+2014-5-7 13:58:29[ERROR](KeywordAction.java:194) >>>>>>>>>>>>>>>>>:true
+2014-5-7 13:58:29[ERROR](KeywordAction.java:195) +++++---------------+++26000 keyword : abcdCustomId:2CustomName:ÑÛ¾µÖÐÐÄÓªÒµÌü
+2014-5-7 13:58:34[ERROR](KeywordAction.java:279) -------->12-1
+2014-5-7 13:58:34[ERROR](KeywordAction.java:297) ++++++++++++>26000*1
+2014-5-7 13:58:34[ERROR](KeywordAction.java:192) ccount.getMoney().doubleValue():1.358693802E7
+2014-5-7 13:58:34[ERROR](KeywordAction.java:193) new BigDecimal(price).doubleValue():26000.0
+2014-5-7 13:58:34[ERROR](KeywordAction.java:194) >>>>>>>>>>>>>>>>>:true
+2014-5-7 13:58:34[ERROR](KeywordAction.java:195) +++++---------------+++26000 keyword : abcdCustomId:2CustomName:ÑÛ¾µÖÐÐÄÓªÒµÌü
+2014-5-7 13:58:42[ERROR](KeywordAction.java:279) -------->12-1
+2014-5-7 13:58:42[ERROR](KeywordAction.java:297) ++++++++++++>26000*1
+2014-5-7 13:58:42[ERROR](KeywordAction.java:192) ccount.getMoney().doubleValue():1.358693802E7
+2014-5-7 13:58:42[ERROR](KeywordAction.java:193) new BigDecimal(price).doubleValue():26000.0
+2014-5-7 13:58:42[ERROR](KeywordAction.java:194) >>>>>>>>>>>>>>>>>:true
+2014-5-7 13:58:42[ERROR](KeywordAction.java:195) +++++---------------+++26000 keyword : abcdCustomId:2CustomName:ÑÛ¾µÖÐÐÄÓªÒµÌü
+2014-5-7 13:58:48[ERROR](KeywordAction.java:279) -------->12-1
+2014-5-7 13:58:48[ERROR](KeywordAction.java:297) ++++++++++++>26000*1
+2014-5-7 13:58:48[ERROR](KeywordAction.java:192) ccount.getMoney().doubleValue():1.358693802E7
+2014-5-7 13:58:48[ERROR](KeywordAction.java:193) new BigDecimal(price).doubleValue():26000.0
+2014-5-7 13:58:48[ERROR](KeywordAction.java:194) >>>>>>>>>>>>>>>>>:true
+2014-5-7 13:58:48[ERROR](KeywordAction.java:195) +++++---------------+++26000 keyword : abcdCustomId:2CustomName:ÑÛ¾µÖÐÐÄÓªÒµÌü
+2014-5-7 13:58:52[ERROR](KeywordAction.java:279) -------->12-1
+2014-5-7 13:58:52[ERROR](KeywordAction.java:297) ++++++++++++>26000*1
+2014-5-7 13:58:52[ERROR](KeywordAction.java:192) ccount.getMoney().doubleValue():1.358693802E7
+2014-5-7 13:58:52[ERROR](KeywordAction.java:193) new BigDecimal(price).doubleValue():26000.0
+2014-5-7 13:58:52[ERROR](KeywordAction.java:194) >>>>>>>>>>>>>>>>>:true
+2014-5-7 13:58:52[ERROR](KeywordAction.java:195) +++++---------------+++26000 keyword : abcdCustomId:2CustomName:ÑÛ¾µÖÐÐÄÓªÒµÌü
+2014-5-7 13:58:56[ERROR](KeywordAction.java:279) -------->12-1
+2014-5-7 13:58:56[ERROR](KeywordAction.java:297) ++++++++++++>26000*1
+2014-5-7 13:58:56[ERROR](KeywordAction.java:192) ccount.getMoney().doubleValue():1.358693802E7
+2014-5-7 13:58:56[ERROR](KeywordAction.java:193) new BigDecimal(price).doubleValue():26000.0
+2014-5-7 13:58:56[ERROR](KeywordAction.java:194) >>>>>>>>>>>>>>>>>:true
+2014-5-7 13:58:56[ERROR](KeywordAction.java:195) +++++---------------+++26000 keyword : abcdCustomId:2CustomName:ÑÛ¾µÖÐÐÄÓªÒµÌü
+2014-5-7 14:05:47[ERROR](KeywordAction.java:279) -------->12-1
+2014-5-7 14:05:47[ERROR](KeywordAction.java:297) ++++++++++++>26000*1
+2014-5-7 14:05:47[ERROR](KeywordAction.java:192) ccount.getMoney().doubleValue():1.358693802E7
+2014-5-7 14:05:47[ERROR](KeywordAction.java:193) new BigDecimal(price).doubleValue():26000.0
+2014-5-7 14:05:47[ERROR](KeywordAction.java:194) >>>>>>>>>>>>>>>>>:true
+2014-5-7 14:05:47[ERROR](KeywordAction.java:195) +++++---------------+++26000 keyword : abcdCustomId:2CustomName:ÑÛ¾µÖÐÐÄÓªÒµÌü
+2014-5-7 14:39:39[ERROR](LoginAction.java:98) User login : hanlu - º«Â¶
+2014-5-7 14:39:46[ERROR](LoginAction.java:144) User logout : hanlu - º«Â¶
+2014-5-7 14:39:50[ERROR](LoginAction.java:98) User login : hanlu - º«Â¶
+2014-5-7 14:40:17[ERROR](KeywordAction.java:78) --->0
+2014-5-7 14:40:19[ERROR](LoginAction.java:144) User logout : hanlu - º«Â¶
+2014-5-7 14:40:21[ERROR](LoginAction.java:98) User login : hanlu - º«Â¶
+2014-5-7 14:40:39[ERROR](SystemInit.java:52) ------------>12
+2014-5-7 14:40:39[ERROR](SystemInit.java:53) ------------>5
+2014-5-7 14:40:39[ERROR](SystemInit.java:54) ------------>5
+2014-5-7 14:40:39[ERROR](SystemInit.java:55) ------------>http//javamall.bdqn.cn
+2014-5-7 14:40:39[ERROR](SystemInit.java:56) ------------>8
+2014-5-7 14:40:39[ERROR](SystemInit.java:57) ------------>7
+2014-5-7 14:40:40[ERROR](SystemInit.java:98) Role list:8
+2014-5-7 14:40:40[ERROR](SystemInit.java:104) init datas end.
+2014-5-7 14:40:44[ERROR](LoginAction.java:98) User login : hanlu - º«Â¶
+2014-5-7 14:40:50[ERROR](CustomAction.java:181) cname-hanlu-----> null
+2014-5-7 14:40:52[ERROR](CustomAction.java:181) cname-hanlu-----> null
+2014-5-7 14:40:54[ERROR](KeywordAction.java:379) xxxxxxxxxxxxxxxxxxxxx0
+2014-5-7 14:40:54[ERROR](KeywordAction.java:380) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-7 14:40:54[ERROR](KeywordAction.java:381) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-7 14:40:54[ERROR](LogAction.java:28) ----------------------------logs------------------------
+2014-5-7 14:40:58[ERROR](KeywordAction.java:78) --->0
+2014-5-7 14:43:08[ERROR](PortalAction.java:93) cname-hanlu-----> null
+2014-5-7 14:43:08[ERROR](PortalAction.java:94) kword-hanlu-----> null
+2014-5-7 14:43:08[ERROR](PortalAction.java:115) myPortalManage ********* 0
+2014-5-7 14:43:10[ERROR](CustomAction.java:181) cname-hanlu-----> null
+2014-5-7 14:43:12[ERROR](LoginAction.java:144) User logout : hanlu - º«Â¶
+2014-5-7 14:43:15[ERROR](LoginAction.java:98) User login : hanlu - º«Â¶
+2014-5-7 14:43:20[ERROR](KeywordAction.java:78) --->10
+2014-5-7 14:44:25[ERROR](SystemConfigAction.java:88) systemConfig.getConfigType() ***************************** null
+2014-5-7 14:44:33[ERROR](ReportAction.java:563) ^^^^^^^^^^^^^^^^1^^^^^^^6
+2014-5-7 14:44:35[ERROR](PortalAction.java:93) cname-hanlu-----> null
+2014-5-7 14:44:35[ERROR](PortalAction.java:94) kword-hanlu-----> null
+2014-5-7 14:44:35[ERROR](PortalAction.java:115) myPortalManage ********* 5
+2014-5-7 14:46:11[ERROR](CustomAction.java:181) cname-hanlu-----> null
+2014-5-7 14:46:13[ERROR](LoginAction.java:144) User logout : hanlu - º«Â¶
+2014-5-7 14:46:16[ERROR](LoginAction.java:98) User login : hanlu - º«Â¶
+2014-5-7 14:46:20[ERROR](KeywordAction.java:78) --->10
+2014-5-7 14:46:24[ERROR](KeywordAction.java:331) xxxxxxxxxxxxxxxxxxxxx10
+2014-5-7 14:46:24[ERROR](KeywordAction.java:332) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-7 14:46:24[ERROR](KeywordAction.java:333) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-7 14:46:29[ERROR](KeywordAction.java:78) --->10
+2014-5-7 14:46:35[ERROR](KeywordAction.java:279) -------->12-1
+2014-5-7 14:46:35[ERROR](KeywordAction.java:297) ++++++++++++>26000*1
+2014-5-7 14:46:36[ERROR](KeywordAction.java:279) -------->12-1
+2014-5-7 14:46:36[ERROR](KeywordAction.java:297) ++++++++++++>26000*1
+2014-5-7 14:46:36[ERROR](KeywordAction.java:192) ccount.getMoney().doubleValue():1.575800202E7
+2014-5-7 14:46:36[ERROR](KeywordAction.java:193) new BigDecimal(price).doubleValue():26000.0
+2014-5-7 14:46:36[ERROR](KeywordAction.java:194) >>>>>>>>>>>>>>>>>:true
+2014-5-7 14:46:36[ERROR](KeywordAction.java:195) +++++---------------+++26000 keyword : ABCDCustomId:1CustomName:¼Î¶ÙÊµÒµ
+2014-5-7 14:46:40[ERROR](KeywordAction.java:379) xxxxxxxxxxxxxxxxxxxxx9
+2014-5-7 14:46:40[ERROR](KeywordAction.java:380) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-7 14:46:40[ERROR](KeywordAction.java:381) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-7 14:46:47[ERROR](KeywordAction.java:379) xxxxxxxxxxxxxxxxxxxxx9
+2014-5-7 14:46:47[ERROR](KeywordAction.java:380) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-7 14:46:47[ERROR](KeywordAction.java:381) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-7 14:46:48[ERROR](KeywordAction.java:379) xxxxxxxxxxxxxxxxxxxxx9
+2014-5-7 14:46:48[ERROR](KeywordAction.java:380) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-7 14:46:48[ERROR](KeywordAction.java:381) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-7 14:46:50[ERROR](KeywordAction.java:331) xxxxxxxxxxxxxxxxxxxxx11
+2014-5-7 14:46:50[ERROR](KeywordAction.java:332) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-7 14:46:50[ERROR](KeywordAction.java:333) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-7 14:46:54[ERROR](KeywordAction.java:331) xxxxxxxxxxxxxxxxxxxxx11
+2014-5-7 14:46:54[ERROR](KeywordAction.java:332) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-7 14:46:54[ERROR](KeywordAction.java:333) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-7 14:46:57[ERROR](KeywordAction.java:331) xxxxxxxxxxxxxxxxxxxxx11
+2014-5-7 14:46:57[ERROR](KeywordAction.java:332) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-7 14:46:57[ERROR](KeywordAction.java:333) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-7 14:47:00[ERROR](KeywordAction.java:78) --->10
+2014-5-7 14:47:09[ERROR](KeywordAction.java:279) -------->12-2
+2014-5-7 14:47:09[ERROR](KeywordAction.java:297) ++++++++++++>26000*2
+2014-5-7 14:47:10[ERROR](KeywordAction.java:279) -------->12-1
+2014-5-7 14:47:10[ERROR](KeywordAction.java:297) ++++++++++++>26000*1
+2014-5-7 14:47:11[ERROR](KeywordAction.java:279) -------->12-1
+2014-5-7 14:47:11[ERROR](KeywordAction.java:297) ++++++++++++>26000*1
+2014-5-7 14:47:11[ERROR](KeywordAction.java:192) ccount.getMoney().doubleValue():1.575800202E7
+2014-5-7 14:47:11[ERROR](KeywordAction.java:193) new BigDecimal(price).doubleValue():26000.0
+2014-5-7 14:47:11[ERROR](KeywordAction.java:194) >>>>>>>>>>>>>>>>>:true
+2014-5-7 14:47:11[ERROR](KeywordAction.java:195) +++++---------------+++26000 keyword : ABCDCustomId:2CustomName:ÑÛ¾µÖÐÐÄÓªÒµÌü
+2014-5-7 14:47:17[ERROR](LoginAction.java:144) User logout : hanlu - º«Â¶
+2014-5-7 14:47:19[ERROR](LoginAction.java:98) User login : hanlu - º«Â¶
+2014-5-7 14:47:25[ERROR](KeywordAction.java:331) xxxxxxxxxxxxxxxxxxxxx12
+2014-5-7 14:47:25[ERROR](KeywordAction.java:332) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-7 14:47:25[ERROR](KeywordAction.java:333) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-7 14:48:54[ERROR](PortalAction.java:93) cname-hanlu-----> null
+2014-5-7 14:48:54[ERROR](PortalAction.java:94) kword-hanlu-----> null
+2014-5-7 14:48:54[ERROR](PortalAction.java:115) myPortalManage ********* 5
+2014-5-7 14:48:56[ERROR](PortalAction.java:148) --------------------------->
+2014-5-7 14:48:56[ERROR](PortalAction.java:149) --------------------------->
+2014-5-7 14:49:00[ERROR](PortalAction.java:148) --------------------------->
+2014-5-7 14:49:00[ERROR](PortalAction.java:149) --------------------------->
+2014-5-7 14:50:01[ERROR](PortalAction.java:93) cname-hanlu-----> null
+2014-5-7 14:50:01[ERROR](PortalAction.java:94) kword-hanlu-----> null
+2014-5-7 14:50:01[ERROR](PortalAction.java:115) myPortalManage ********* 5
+2014-5-7 14:50:12[ERROR](PortalAction.java:93) cname-hanlu-----> null
+2014-5-7 14:50:12[ERROR](PortalAction.java:94) kword-hanlu-----> null
+2014-5-7 14:50:12[ERROR](PortalAction.java:115) myPortalManage ********* 5
+2014-5-7 14:50:17[ERROR](PortalAction.java:93) cname-hanlu-----> null
+2014-5-7 14:50:17[ERROR](PortalAction.java:94) kword-hanlu-----> null
+2014-5-7 14:50:17[ERROR](PortalAction.java:115) myPortalManage ********* 5
+2014-5-7 14:50:29[ERROR](CustomAction.java:181) cname-hanlu-----> null
+2014-5-7 14:50:33[ERROR](KeywordAction.java:379) xxxxxxxxxxxxxxxxxxxxx10
+2014-5-7 14:50:33[ERROR](KeywordAction.java:380) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-7 14:50:33[ERROR](KeywordAction.java:381) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-7 14:50:34[ERROR](LogAction.java:28) ----------------------------logs------------------------
+2014-5-7 14:50:54[ERROR](CustomAction.java:181) cname-hanlu-----> null
+2014-5-7 14:51:05[ERROR](PortalAction.java:93) cname-hanlu-----> null
+2014-5-7 14:51:05[ERROR](PortalAction.java:94) kword-hanlu-----> null
+2014-5-7 14:51:05[ERROR](PortalAction.java:115) myPortalManage ********* 5
+2014-5-7 14:51:07[ERROR](PortalAction.java:93) cname-hanlu-----> null
+2014-5-7 14:51:07[ERROR](PortalAction.java:94) kword-hanlu-----> null
+2014-5-7 14:51:07[ERROR](PortalAction.java:115) myPortalManage ********* 5
+2014-5-7 14:51:31[ERROR](PortalAction.java:93) cname-hanlu-----> null
+2014-5-7 14:51:31[ERROR](PortalAction.java:94) kword-hanlu-----> null
+2014-5-7 14:51:31[ERROR](PortalAction.java:115) myPortalManage ********* 5
+2014-5-7 14:52:45[ERROR](KeywordAction.java:331) xxxxxxxxxxxxxxxxxxxxx12
+2014-5-7 14:52:45[ERROR](KeywordAction.java:332) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-7 14:52:45[ERROR](KeywordAction.java:333) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-7 14:53:05[ERROR](PortalAction.java:93) cname-hanlu-----> null
+2014-5-7 14:53:05[ERROR](PortalAction.java:94) kword-hanlu-----> null
+2014-5-7 14:53:05[ERROR](PortalAction.java:115) myPortalManage ********* 5
+2014-5-7 14:53:49[ERROR](PortalAction.java:93) cname-hanlu-----> null
+2014-5-7 14:53:49[ERROR](PortalAction.java:94) kword-hanlu-----> null
+2014-5-7 14:53:49[ERROR](PortalAction.java:115) myPortalManage ********* 5
+2014-5-7 14:53:52[ERROR](PortalAction.java:93) cname-hanlu-----> null
+2014-5-7 14:53:52[ERROR](PortalAction.java:94) kword-hanlu-----> null
+2014-5-7 14:53:52[ERROR](PortalAction.java:115) myPortalManage ********* 5
+2014-5-7 14:53:54[ERROR](PortalAction.java:93) cname-hanlu-----> null
+2014-5-7 14:53:54[ERROR](PortalAction.java:94) kword-hanlu-----> null
+2014-5-7 14:53:54[ERROR](PortalAction.java:115) myPortalManage ********* 5
+2014-5-7 14:53:55[ERROR](PortalAction.java:93) cname-hanlu-----> null
+2014-5-7 14:53:55[ERROR](PortalAction.java:94) kword-hanlu-----> null
+2014-5-7 14:53:55[ERROR](PortalAction.java:115) myPortalManage ********* 5
+2014-5-7 14:53:57[ERROR](PortalAction.java:148) --------------------------->
+2014-5-7 14:53:57[ERROR](PortalAction.java:149) --------------------------->
+2014-5-7 14:54:00[ERROR](PortalAction.java:93) cname-hanlu-----> null
+2014-5-7 14:54:00[ERROR](PortalAction.java:94) kword-hanlu-----> null
+2014-5-7 14:54:00[ERROR](PortalAction.java:115) myPortalManage ********* 5
+2014-5-7 14:54:03[ERROR](PortalAction.java:148) --------------------------->
+2014-5-7 14:54:03[ERROR](PortalAction.java:149) --------------------------->
+2014-5-7 14:54:04[ERROR](PortalAction.java:93) cname-hanlu-----> null
+2014-5-7 14:54:04[ERROR](PortalAction.java:94) kword-hanlu-----> null
+2014-5-7 14:54:04[ERROR](PortalAction.java:115) myPortalManage ********* 5
+2014-5-7 14:55:53[ERROR](PortalAction.java:93) cname-hanlu-----> null
+2014-5-7 14:55:53[ERROR](PortalAction.java:94) kword-hanlu-----> null
+2014-5-7 14:55:53[ERROR](PortalAction.java:115) myPortalManage ********* 5
+2014-5-7 14:56:05[ERROR](CustomAction.java:181) cname-hanlu-----> null
+2014-5-7 14:56:05[ERROR](CustomAction.java:181) cname-hanlu-----> null
+2014-5-7 14:56:11[ERROR](KeywordAction.java:379) xxxxxxxxxxxxxxxxxxxxx10
+2014-5-7 14:56:11[ERROR](KeywordAction.java:380) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-7 14:56:11[ERROR](KeywordAction.java:381) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-7 14:56:14[ERROR](LogAction.java:28) ----------------------------logs------------------------
+2014-5-7 14:56:20[ERROR](LogAction.java:28) ----------------------------logs------------------------
+2014-5-7 14:56:22[ERROR](LogAction.java:28) ----------------------------logs------------------------
+2014-5-7 14:56:23[ERROR](KeywordAction.java:379) xxxxxxxxxxxxxxxxxxxxx10
+2014-5-7 14:56:23[ERROR](KeywordAction.java:380) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-7 14:56:23[ERROR](KeywordAction.java:381) xxxxxxxxxxxxxxxxxxxxxnull
+2014-5-7 14:56:26[ERROR](CustomAction.java:181) cname-hanlu-----> null
+2014-5-7 15:00:05[ERROR](PortalAction.java:93) cname-hanlu-----> null
+2014-5-7 15:00:05[ERROR](PortalAction.java:94) kword-hanlu-----> null
+2014-5-7 15:00:05[ERROR](PortalAction.java:115) myPortalManage ********* 5
+2014-5-7 15:00:06[ERROR](PortalAction.java:148) --------------------------->
+2014-5-7 15:00:06[ERROR](PortalAction.java:149) --------------------------->
+2014-5-7 15:00:11[ERROR](PortalAction.java:93) cname-hanlu-----> null
+2014-5-7 15:00:11[ERROR](PortalAction.java:94) kword-hanlu-----> null
+2014-5-7 15:00:11[ERROR](PortalAction.java:115) myPortalManage ********* 5
+2014-5-7 15:00:19[ERROR](PortalAction.java:148) --------------------------->
+2014-5-7 15:00:19[ERROR](PortalAction.java:149) --------------------------->
+2014-5-7 15:00:22[ERROR](CustomAction.java:181) cname-hanlu-----> null
+2014-5-7 15:00:28[ERROR](CustomAction.java:181) cname-hanlu-----> 
+2014-5-7 15:00:30[ERROR](CustomAction.java:181) cname-hanlu-----> 
+2014-5-7 15:00:35[ERROR](PortalAction.java:93) cname-hanlu-----> null
+2014-5-7 15:00:35[ERROR](PortalAction.java:94) kword-hanlu-----> null
+2014-5-7 15:00:35[ERROR](PortalAction.java:115) myPortalManage ********* 5
+2014-5-7 15:00:40[ERROR](PortalAction.java:148) --------------------------->1234123413223
+2014-5-7 15:00:40[ERROR](PortalAction.java:149) --------------------------->1241243123412
+2014-5-7 15:01:36[ERROR](PortalAction.java:93) cname-hanlu-----> null
+2014-5-7 15:01:36[ERROR](PortalAction.java:94) kword-hanlu-----> null
+2014-5-7 15:01:36[ERROR](PortalAction.java:115) myPortalManage ********* 5
+2014-5-7 15:15:37[ERROR](ReportAction.java:632) ^^^^^^^^^^^^^^^^4
+2014-5-7 15:15:41[ERROR](ReportAction.java:570) ^^^^^^^^^^^^^^^^2
+2014-5-7 15:15:47[ERROR](ReportAction.java:125) +++++++++++++jdbc:mysql://10.0.0.194:3306/agentsystemdb?useUnicode=true&characterEncoding=UTF-8, UserName=root@10.0.0.122, MySQL-AB JDBC Driver
+2014-5-7 15:21:53[ERROR](PortalAction.java:93) cname-hanlu-----> null
+2014-5-7 15:21:53[ERROR](PortalAction.java:94) kword-hanlu-----> null
+2014-5-7 15:21:53[ERROR](PortalAction.java:115) myPortalManage ********* 5
+2014-5-7 15:21:56[ERROR](PortalAction.java:148) --------------------------->
+2014-5-7 15:21:56[ERROR](PortalAction.java:149) --------------------------->
+2014-5-7 15:40:06[ERROR](PortalAction.java:148) --------------------------->
+2014-5-7 15:40:06[ERROR](PortalAction.java:149) --------------------------->
+2014-5-7 15:51:14[ERROR](PortalAction.java:148) --------------------------->
+2014-5-7 15:51:14[ERROR](PortalAction.java:149) --------------------------->
+2014-5-7 15:51:16[ERROR](PortalAction.java:93) cname-hanlu-----> null
+2014-5-7 15:51:16[ERROR](PortalAction.java:94) kword-hanlu-----> null
+2014-5-7 15:51:16[ERROR](PortalAction.java:115) myPortalManage ********* 5
+2014-5-7 15:51:18[ERROR](PortalAction.java:148) --------------------------->
+2014-5-7 15:51:18[ERROR](PortalAction.java:149) --------------------------->
+2014-5-7 15:51:49[ERROR](PortalAction.java:148) --------------------------->
+2014-5-7 15:51:49[ERROR](PortalAction.java:149) --------------------------->
+2014-5-7 15:51:49[ERROR](PortalAction.java:148) --------------------------->
+2014-5-7 15:51:49[ERROR](PortalAction.java:149) --------------------------->
+2014-5-7 15:55:46[ERROR](PortalAction.java:148) --------------------------->
+2014-5-7 15:55:46[ERROR](PortalAction.java:149) --------------------------->
+2014-5-7 15:55:51[ERROR](LoginAction.java:98) User login : hanlu - º«Â¶
+2014-5-7 15:55:53[ERROR](PortalAction.java:93) cname-hanlu-----> null
+2014-5-7 15:55:53[ERROR](PortalAction.java:94) kword-hanlu-----> null
+2014-5-7 15:55:53[ERROR](PortalAction.java:115) myPortalManage ********* 5
+2014-5-7 15:55:55[ERROR](PortalAction.java:148) --------------------------->
+2014-5-7 15:55:55[ERROR](PortalAction.java:149) --------------------------->
+2014-5-7 15:56:28[ERROR](PortalAction.java:148) --------------------------->
+2014-5-7 15:56:28[ERROR](PortalAction.java:149) --------------------------->
+2014-5-7 15:56:31[ERROR](PortalAction.java:93) cname-hanlu-----> null
+2014-5-7 15:56:31[ERROR](PortalAction.java:94) kword-hanlu-----> null
+2014-5-7 15:56:31[ERROR](PortalAction.java:115) myPortalManage ********* 5
+2014-5-7 15:56:33[ERROR](PortalAction.java:148) --------------------------->1234123413223
+2014-5-7 15:56:33[ERROR](PortalAction.java:149) --------------------------->1241243123412
+2014-5-7 15:56:36[ERROR](PortalAction.java:93) cname-hanlu-----> null
+2014-5-7 15:56:36[ERROR](PortalAction.java:94) kword-hanlu-----> null
+2014-5-7 15:56:36[ERROR](PortalAction.java:115) myPortalManage ********* 5
+2014-5-7 15:56:37[ERROR](PortalAction.java:148) --------------------------->
+2014-5-7 15:56:37[ERROR](PortalAction.java:149) --------------------------->
+2014-5-7 15:57:14[ERROR](PortalAction.java:148) --------------------------->
+2014-5-7 15:57:14[ERROR](PortalAction.java:149) --------------------------->
+2014-5-7 15:58:55[ERROR](PortalAction.java:148) --------------------------->
+2014-5-7 15:58:55[ERROR](PortalAction.java:149) --------------------------->
+2014-5-7 15:59:03[ERROR](PortalAction.java:93) cname-hanlu-----> 
+2014-5-7 15:59:03[ERROR](PortalAction.java:94) kword-hanlu-----> 
+2014-5-7 15:59:03[ERROR](PortalAction.java:115) myPortalManage ********* 5
+2014-5-7 15:59:24[ERROR](PortalAction.java:93) cname-hanlu-----> 
+2014-5-7 15:59:24[ERROR](PortalAction.java:94) kword-hanlu-----> 
+2014-5-7 15:59:24[ERROR](PortalAction.java:115) myPortalManage ********* 5
+2014-5-7 15:59:25[ERROR](PortalAction.java:93) cname-hanlu-----> null
+2014-5-7 15:59:25[ERROR](PortalAction.java:94) kword-hanlu-----> null
+2014-5-7 15:59:25[ERROR](PortalAction.java:115) myPortalManage ********* 5
+2014-5-7 15:59:27[ERROR](PortalAction.java:148) --------------------------->
+2014-5-7 15:59:27[ERROR](PortalAction.java:149) --------------------------->
+2014-5-7 15:59:28[ERROR](PortalAction.java:93) cname-hanlu-----> 
+2014-5-7 15:59:28[ERROR](PortalAction.java:94) kword-hanlu-----> 
+2014-5-7 15:59:28[ERROR](PortalAction.java:115) myPortalManage ********* 5
+2014-5-7 15:59:30[ERROR](PortalAction.java:148) --------------------------->
+2014-5-7 15:59:30[ERROR](PortalAction.java:149) --------------------------->
+2014-5-7 16:00:35[ERROR](PortalAction.java:93) cname-hanlu-----> 
+2014-5-7 16:00:35[ERROR](PortalAction.java:94) kword-hanlu-----> 
+2014-5-7 16:00:35[ERROR](PortalAction.java:115) myPortalManage ********* 5

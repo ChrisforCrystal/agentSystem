@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name>agentsystem</display-name>	
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>/WEB-INF/applicationContext-*.xml,classpath*:applicationContext-*.xml</param-value>
+	</context-param>
+	<filter>
+		<filter-name>struts2</filter-name>
+		<filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>struts2</filter-name>
+		<url-pattern>*.action</url-pattern>
+		<url-pattern>*.jsp</url-pattern>
+		<dispatcher>REQUEST</dispatcher>
+		<dispatcher>FORWARD</dispatcher>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>struts-cleanup</filter-name>
+		<filter-class>org.apache.struts2.dispatcher.ActionContextCleanUp</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>struts-cleanup</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+
+	<!-- log4j配置start -->
+	<context-param>
+		<param-name>log4jConfigLocation</param-name>
+		<param-value>/WEB-INF/log4j.properties</param-value>
+	</context-param>
+	
+	
+	<!--如果不定义webAppRootKey参数，那么webAppRootKey就是缺省的"webapp.root"。但最好设置，以免项目之间的名称冲突。
+        定义以后，在Web Container启动时将把ROOT的绝对路径写到系统变量里。
+        然后log4j的配置文件里就可以用${webName.root }来表示Web目录的绝对路径，把log文件存放于webapp中。
+        此参数用于后面的“Log4jConfigListener”-->
+	
+	  <context-param>
+		<param-name>webAppRootKey</param-name>
+		<param-value>agentsystem.root</param-value>
+	</context-param>
+	
+	<!-- Spring 加载 Log4j 的监听 -->
+	<listener>
+		<listener-class>
+			org.springframework.web.util.Log4jConfigListener
+		</listener-class>
+	</listener>
+	<!-- log4j配置end -->
+
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+
+	<listener>
+		<listener-class>org.agent.systeminit.SystemInit</listener-class>
+	</listener>
+
+
+
+
+
+
+	<!-- 配置错误页面处理 -->
+	<error-page>
+		<error-code>404</error-code>
+		<location>/sysmsg/404.html</location>
+	</error-page>
+	<error-page>
+		<error-code>505</error-code>
+		<location>/sysmsg/505.html</location>
+	</error-page>
+	<error-page>
+		<error-code>500</error-code>
+		<location>/sysmsg/500.html</location>
+	</error-page>
+  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
